@@ -1,0 +1,225 @@
+No.,Country,ISO_A2,ISO_A3,Signed,Ratification,Party,
+1, Afghanistan , AF , AFG ,1992-06-12 ,2002-09-19 ,rtf ,2002-12-18 
+2, Albania , AL , ALB ,,1994-01-05 ,acs ,1994-04-05 
+3, Algeria , DZ , DZA ,1992-06-13 ,1995-08-14 ,rtf ,1995-11-12 
+4, Andorra , AD , AND ,,2015-02-04 ,acs ,2015-05-05 
+5, Angola , AO , AGO ,1992-06-12 ,1998-04-01 ,rtf ,1998-06-30 
+6, Antigua and Barbuda , AG , ATG ,1992-06-05 ,1993-03-09 ,rtf ,1993-12-29 
+7, Argentina , AR , ARG ,1992-06-12 ,1994-11-22 ,rtf ,1995-02-20 
+8, Armenia , AM , ARM ,1992-06-13 ,1993-05-14 ,acp ,1993-12-29 
+9, Australia , AU , AUS ,1992-06-05 ,1993-06-18 ,rtf ,1993-12-29 
+10, Austria , AT , AUT ,1992-06-13 ,1994-08-18 ,rtf ,1994-11-16 
+11, Azerbaijan , AZ , AZE ,1992-06-12 ,2000-08-03 ,apv ,2000-11-01 
+12, Bahamas (The) , BS , BHS ,1992-06-12 ,1993-09-02 ,rtf ,1993-12-29 
+13, Bahrain , BH , BHR ,1992-06-09 ,1996-08-30 ,rtf ,1996-11-28 
+14, Bangladesh , BD , BGD ,1992-06-05 ,1994-05-03 ,rtf ,1994-08-01 
+15, Barbados , BB , BRB ,1992-06-12 ,1993-12-10 ,rtf ,1994-03-10 
+16, Belarus , BY , BLR ,1992-06-11 ,1993-09-08 ,rtf ,1993-12-29 
+17, Belgium , BE , BEL ,1992-06-05 ,1996-11-22 ,rtf ,1997-02-20 
+18, Belize , BZ , BLZ ,1992-06-13 ,1993-12-30 ,rtf ,1994-03-30 
+19, Benin , BJ , BEN ,1992-06-13 ,1994-06-30 ,rtf ,1994-09-28 
+20, Bhutan , BT , BTN ,1992-06-11 ,1995-08-25 ,rtf ,1995-11-23 
+21, Bolivia (Plurinational State of) , BO , BOL ,1992-06-13 ,1994-10-03 ,rtf ,1995-01-01 
+22, Bosnia and Herzegovina , BA , BIH ,,2002-08-26 ,acs ,2002-11-24 
+23, Botswana , BW , BWA ,1992-06-08 ,1995-10-12 ,rtf ,1996-01-10 
+24, Brazil , BR , BRA ,1992-06-05 ,1994-02-28 ,rtf ,1994-05-29 
+25, Brunei Darussalam , BN , BRN ,,2008-04-28 ,acs ,2008-07-27 
+26, Bulgaria , BG , BGR ,1992-06-12 ,1996-04-17 ,rtf ,1996-07-16 
+27, Burkina Faso , BF , BFA ,1992-06-12 ,1993-09-02 ,rtf ,1993-12-29 
+28, Burundi , BI , BDI ,1992-06-11 ,1997-04-15 ,rtf ,1997-07-14 
+29, Cabo Verde , CV , CPV ,1992-06-12 ,1995-03-29 ,rtf ,1995-06-27 
+30, Cambodia , KH , KHM ,,1995-02-09 ,acs ,1995-05-10 
+31, Cameroon , CM , CMR ,1992-06-14 ,1994-10-19 ,rtf ,1995-01-17 
+32, Canada , CA , CAN ,1992-06-11 ,1992-12-04 ,rtf ,1993-12-29 
+33, Central African Republic , CF , CAF ,1992-06-13 ,1995-03-15 ,rtf ,1995-06-13 
+34, Chad , TD , TCD ,1992-06-12 ,1994-06-07 ,rtf ,1994-09-05 
+35, Chile , CL , CHL ,1992-06-13 ,1994-09-09 ,rtf ,1994-12-08 
+36, China , CN , CHN ,1992-06-11 ,1993-01-05 ,rtf ,1993-12-29 
+37, Colombia , CO , COL ,1992-06-12 ,1994-11-28 ,rtf ,1995-02-26 
+38, Comoros , KM , COM ,1992-06-11 ,1994-09-29 ,rtf ,1994-12-28 
+39, Congo , CG , COG ,1992-06-11 ,1996-08-01 ,rtf ,1996-10-30 
+40, Cook Islands , CK , COK ,1992-06-12 ,1993-04-20 ,rtf ,1993-12-29 
+41, Costa Rica , CR , CRI ,1992-06-13 ,1994-08-26 ,rtf ,1994-11-24 
+42, Côte d'Ivoire ,  ,  ,1992-06-10 ,1994-11-29 ,rtf ,1995-02-27 
+43, Croatia , HR , HRV ,1992-06-11 ,1996-10-07 ,rtf ,1997-01-05 
+44, Cuba , CU , CUB ,1992-06-12 ,1994-03-08 ,rtf ,1994-06-06 
+45, Cyprus , CY , CYP ,1992-06-12 ,1996-07-10 ,rtf ,1996-10-08 
+46, Czechia , CZ , CZE ,1993-06-04 ,1993-12-03 ,apv ,1994-03-03 
+47, Democratic People's Republic of Korea , KP , PRK ,1992-06-11 ,1994-10-26 ,apv ,1995-01-24 
+48, Democratic Republic of the Congo , CD , COD ,1992-06-11 ,1994-12-03 ,rtf ,1995-03-03 
+49, Denmark , DK , DNK ,1992-06-12 ,1993-12-21 ,rtf ,1994-03-21 
+50, Djibouti , DJ , DJI ,1992-06-13 ,1994-09-01 ,rtf ,1994-11-30 
+51, Dominica , DM , DMA ,,1994-04-06 ,acs ,1994-07-05 
+52, Dominican Republic , DO , DOM ,1992-06-13 ,1996-11-25 ,rtf ,1997-02-23 
+53, Ecuador , EC , ECU ,1992-06-09 ,1993-02-23 ,rtf ,1993-12-29 
+54, Egypt , EG , EGY ,1992-06-09 ,1994-06-02 ,rtf ,1994-08-31 
+55, El Salvador , SV , SLV ,1992-06-13 ,1994-09-08 ,rtf ,1994-12-07 
+56, Equatorial Guinea , GQ , GNQ ,,1994-12-06 ,acs ,1995-03-06 
+57, Eritrea , ER , ERI ,,1996-03-21 ,acs ,1996-06-19 
+58, Estonia , EE , EST ,1992-06-12 ,1994-07-27 ,rtf ,1994-10-25 
+59, Eswatini , SZ , SWZ ,1992-06-12 ,1994-11-09 ,rtf ,1995-02-07 
+60, Ethiopia , ET , ETH ,1992-06-10 ,1994-04-05 ,rtf ,1994-07-04 
+61, Austria , AT , AUT , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+62, Belgium , BE , BEL , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+63, Bulgaria , BG , BGR , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+64, Croatia , HR , HRV , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+65, Cyprus , CY , CYP , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+66, Czechia , CZ , CZE , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+67, Denmark , DK , DNK , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+68, Estonia , EE , EST , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+69, Finland , FI , FIN , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+70, France , FR , FRA , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+71, Germany , DE , DEU , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+72, Greece , GR , GRC , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+73, Hungary , HU , HUN , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+74, Ireland , IE , IRL , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+75, Italy , IT , ITA , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+76, Latvia , LV , LVA , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+77, Lithuania , LT , LTU , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+78, Luxembourg , LU , LUX , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+79, Malta , MT , MLT , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+80, Netherlands , NL , NLD , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+81, Poland , PL , POL , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+82, Portugal , PT , PRT , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+83, Romania , RO , ROU , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+84, Slovakia , SK , SVK , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+85, Slovenia , SI , SVN , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+86, Spain , ES , ESP , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+87, Sweden , SE , SWE , 1992-06-13 , 1993-12-21 , apv , 1994-03-21 
+88, Fiji , FJ , FJI ,1992-10-09 ,1993-02-25 ,rtf ,1993-12-29 
+89, Finland , FI , FIN ,1992-06-05 ,1994-07-27 ,acp ,1994-10-25 
+90, France , FR , FRA ,1992-06-13 ,1994-07-01 ,rtf ,1994-09-29 
+91, Gabon , GA , GAB ,1992-06-12 ,1997-03-14 ,rtf ,1997-06-12 
+92, Gambia , GM , GMB ,1992-06-12 ,1994-06-10 ,rtf ,1994-09-08 
+93, Georgia , GE , GEO ,,1994-06-02 ,acs ,1994-08-31 
+94, Germany , DE , DEU ,1992-06-12 ,1993-12-21 ,rtf ,1994-03-21 
+95, Ghana , GH , GHA ,1992-06-12 ,1994-08-29 ,rtf ,1994-11-27 
+96, Greece , GR , GRC ,1992-06-12 ,1994-08-04 ,rtf ,1994-11-02 
+97, Grenada , GD , GRD ,1992-12-03 ,1994-08-11 ,rtf ,1994-11-09 
+98, Guatemala , GT , GTM ,1992-06-13 ,1995-07-10 ,rtf ,1995-10-08 
+99, Guinea , GN , GIN ,1992-06-12 ,1993-05-07 ,rtf ,1993-12-29 
+100, Guinea-Bissau , GW , GNB ,1992-06-12 ,1995-10-27 ,rtf ,1996-01-25 
+101, Guyana , GY , GUY ,1992-06-13 ,1994-08-29 ,rtf ,1994-11-27 
+102, Haiti , HT , HTI ,1992-06-13 ,1996-09-25 ,rtf ,1996-12-24 
+103, Honduras , HN , HND ,1992-06-13 ,1995-07-31 ,rtf ,1995-10-29 
+104, Hungary , HU , HUN ,1992-06-13 ,1994-02-24 ,rtf ,1994-05-25 
+105, Iceland , IS , ISL ,1992-06-10 ,1994-09-12 ,rtf ,1994-12-11 
+106, India , IN , IND ,1992-06-05 ,1994-02-18 ,rtf ,1994-05-19 
+107, Indonesia , ID , IDN ,1992-06-05 ,1994-08-23 ,rtf ,1994-11-21 
+108, Iran (Islamic Republic of) , IR , IRN ,1992-06-14 ,1996-08-06 ,rtf ,1996-11-04 
+109, Iraq , IQ , IRQ ,,2009-07-28 ,acs ,2009-10-26 
+110, Ireland , IE , IRL ,1992-06-13 ,1996-03-22 ,rtf ,1996-06-20 
+111, Israel , IL , ISR ,1992-06-11 ,1995-08-07 ,rtf ,1995-11-05 
+112, Italy , IT , ITA ,1992-06-05 ,1994-04-15 ,rtf ,1994-07-14 
+113, Jamaica , JM , JAM ,1992-06-11 ,1995-01-06 ,rtf ,1995-04-06 
+114, Japan , JP , JPN ,1992-06-13 ,1993-05-28 ,acp ,1993-12-29 
+115, Jordan , JO , JOR ,1992-06-11 ,1993-11-12 ,rtf ,1994-02-10 
+116, Kazakhstan , KZ , KAZ ,1992-06-09 ,1994-09-06 ,rtf ,1994-12-05 
+117, Kenya , KE , KEN ,1992-06-11 ,1994-07-26 ,rtf ,1994-10-24 
+118, Kiribati , KI , KIR ,,1994-08-16 ,acs ,1994-11-14 
+119, Kuwait , KW , KWT ,1992-06-09 ,2002-08-02 ,rtf ,2002-10-31 
+120, Kyrgyzstan , KG , KGZ ,,1996-08-06 ,acs ,1996-11-04 
+121, Lao People's Democratic Republic , LA , LAO ,,1996-09-20 ,acs ,1996-12-19 
+122, Latvia , LV , LVA ,1992-06-11 ,1995-12-14 ,rtf ,1996-03-13 
+123, Lebanon , LB , LBN ,1992-06-12 ,1994-12-15 ,rtf ,1995-03-15 
+124, Lesotho , LS , LSO ,1992-06-11 ,1995-01-10 ,rtf ,1995-04-10 
+125, Liberia , LR , LBR ,1992-06-12 ,2000-11-08 ,rtf ,2001-02-06 
+126, Libya , LY , LBY ,1992-06-29 ,2001-07-12 ,rtf ,2001-10-10 
+127, Liechtenstein , LI , LIE ,1992-06-05 ,1997-11-19 ,rtf ,1998-02-17 
+128, Lithuania , LT , LTU ,1992-06-11 ,1996-02-01 ,rtf ,1996-05-01 
+129, Luxembourg , LU , LUX ,1992-06-09 ,1994-05-09 ,rtf ,1994-08-07 
+130, Madagascar , MG , MDG ,1992-06-08 ,1996-03-04 ,rtf ,1996-06-02 
+131, Malawi , MW , MWI ,1992-06-10 ,1994-02-02 ,rtf ,1994-05-03 
+132, Malaysia , MY , MYS ,1992-06-12 ,1994-06-24 ,rtf ,1994-09-22 
+133, Maldives , MV , MDV ,1992-06-12 ,1992-11-09 ,rtf ,1993-12-29 
+134, Mali , ML , MLI ,1992-09-30 ,1995-03-29 ,rtf ,1995-06-27 
+135, Malta , MT , MLT ,1992-06-12 ,2000-12-29 ,rtf ,2001-03-29 
+136, Marshall Islands , MH , MHL ,1992-06-12 ,1992-10-08 ,rtf ,1993-12-29 
+137, Mauritania , MR , MRT ,1992-06-12 ,1996-08-16 ,rtf ,1996-11-14 
+138, Mauritius , MU , MUS ,1992-06-10 ,1992-09-04 ,rtf ,1993-12-29 
+139, Mexico , MX , MEX ,1992-06-13 ,1993-03-11 ,rtf ,1993-12-29 
+140, Micronesia (Federated States of) , FM , FSM ,1992-06-12 ,1994-06-20 ,rtf ,1994-09-18 
+141, Monaco , MC , MCO ,1992-06-11 ,1992-11-20 ,rtf ,1993-12-29 
+142, Mongolia , MN , MNG ,1992-06-12 ,1993-09-30 ,rtf ,1993-12-29 
+143, Montenegro , ME , MNE ,,2006-10-23 ,scs ,2006-06-03 
+144, Morocco , MA , MAR ,1992-06-13 ,1995-08-21 ,rtf ,1995-11-19 
+145, Mozambique , MZ , MOZ ,1992-06-12 ,1995-08-25 ,rtf ,1995-11-23 
+146, Myanmar , MM , MMR ,1992-06-11 ,1994-11-25 ,rtf ,1995-02-23 
+147, Namibia , NA , NAM ,1992-06-12 ,1997-05-16 ,rtf ,1997-08-14 
+148, Nauru , NR , NRU ,1992-06-05 ,1993-11-11 ,rtf ,1994-02-08 
+149, Nepal , NP , NPL ,1992-06-12 ,1993-11-23 ,rtf ,1994-02-21 
+150, Netherlands (Kingdom of the) , NL , NLD ,1992-06-05 ,1994-07-12 ,acp ,1994-10-10 
+151, New Zealand , NZ , NZL ,1992-06-12 ,1993-09-16 ,rtf ,1993-12-29 
+152, Nicaragua , NI , NIC ,1992-06-13 ,1995-11-20 ,rtf ,1996-02-18 
+153, Niger , NE , NER ,1992-06-11 ,1995-07-25 ,rtf ,1995-10-23 
+154, Nigeria , NG , NGA ,1992-06-13 ,1994-08-29 ,rtf ,1994-11-27 
+155, Niue , NU , NIU ,,1996-02-28 ,acs ,1996-05-28 
+156, North Macedonia , MK , MKD ,,1997-12-02 ,acs ,1998-03-02 
+157, Norway , NO , NOR ,1992-06-09 ,1993-07-09 ,rtf ,1993-12-29 
+158, Oman , OM , OMN ,1992-06-10 ,1995-02-08 ,rtf ,1995-05-09 
+159, Pakistan , PK , PAK ,1992-06-05 ,1994-07-26 ,rtf ,1994-10-24 
+160, Palau , PW , PLW ,,1999-01-06 ,acs ,1999-04-06 
+161, Panama , PA , PAN ,1992-06-13 ,1995-01-17 ,rtf ,1995-04-17 
+162, Papua New Guinea , PG , PNG ,1992-06-13 ,1993-03-16 ,rtf ,1993-12-29 
+163, Paraguay , PY , PRY ,1992-06-12 ,1994-02-24 ,rtf ,1994-05-25 
+164, Peru , PE , PER ,1992-06-12 ,1993-06-07 ,rtf ,1993-12-29 
+165, Philippines , PH , PHL ,1992-06-12 ,1993-10-08 ,rtf ,1994-01-06 
+166, Poland , PL , POL ,1992-06-05 ,1996-01-18 ,rtf ,1996-04-17 
+167, Portugal , PT , PRT ,1992-06-13 ,1993-12-21 ,rtf ,1994-03-21 
+168, Qatar , QA , QAT ,1992-06-11 ,1996-08-21 ,rtf ,1996-11-19 
+169, Republic of Korea , KR , KOR ,1992-06-13 ,1994-10-03 ,rtf ,1995-01-01 
+170, Republic of Moldova , MD , MDA ,1992-06-05 ,1995-10-20 ,rtf ,1996-01-18 
+171, Romania , RO , ROU ,1992-06-05 ,1994-08-17 ,rtf ,1994-11-15 
+172, Russian Federation , RU , RUS ,1992-06-13 ,1995-04-05 ,rtf ,1995-07-04 
+173, Rwanda , RW , RWA ,1992-06-10 ,1996-05-29 ,rtf ,1996-08-27 
+174, Saint Kitts and Nevis , KN , KNA ,1992-06-12 ,1993-01-07 ,rtf ,1993-12-29 
+175, Saint Lucia , LC , LCA ,,1993-07-28 ,acs ,1993-12-29 
+176, Saint Vincent and the Grenadines , VC , VCT ,,1996-06-03 ,acs ,1996-09-01 
+177, Samoa , WS , WSM ,1992-06-12 ,1994-02-09 ,rtf ,1994-05-10 
+178, San Marino , SM , SMR ,1992-06-10 ,1994-10-28 ,rtf ,1995-01-26 
+179, Sao Tome and Principe , ST , STP ,1992-06-12 ,1999-09-29 ,rtf ,1999-12-28 
+180, Saudi Arabia , SA , SAU ,,2001-10-03 ,acs ,2002-01-01 
+181, Senegal , SN , SEN ,1992-06-13 ,1994-10-17 ,rtf ,1995-01-15 
+182, Serbia , RS , SRB ,1992-06-08 ,2002-03-01 ,rtf ,2002-05-30 
+183, Seychelles , SC , SYC ,1992-06-10 ,1992-09-22 ,rtf ,1993-12-29 
+184, Sierra Leone , SL , SLE ,,1994-12-12 ,acs ,1995-03-12 
+185, Singapore , SG , SGP ,1992-06-12 ,1995-12-21 ,rtf ,1996-03-20 
+186, Slovakia , SK , SVK ,1993-05-19 ,1994-08-25 ,apv ,1994-11-23 
+187, Slovenia , SI , SVN ,1992-06-13 ,1996-07-09 ,rtf ,1996-10-07 
+188, Solomon Islands , SB , SLB ,1992-06-13 ,1995-10-03 ,rtf ,1996-01-01 
+189, Somalia , SO , SOM ,,2009-09-11 ,acs ,2009-12-10 
+190, South Africa , ZA , ZAF ,1993-06-04 ,1995-11-02 ,rtf ,1996-01-31 
+191, South Sudan , SS , SSD ,,2014-02-17 ,acs ,2014-05-18 
+192, Spain , ES , ESP ,1992-06-13 ,1993-12-21 ,rtf ,1994-03-21 
+193, Sri Lanka , LK , LKA ,1992-06-10 ,1994-03-23 ,rtf ,1994-06-21 
+194, State of Palestine , PS , PSE ,,2015-01-02 ,acs ,2015-04-02 
+195, Sudan , SD , SDN ,1992-06-09 ,1995-10-30 ,rtf ,1996-01-28 
+196, Suriname , SR , SUR ,1992-06-13 ,1996-01-12 ,rtf ,1996-04-11 
+197, Sweden , SE , SWE ,1992-06-08 ,1993-12-16 ,rtf ,1994-03-16 
+198, Switzerland , CH , CHE ,1992-06-12 ,1994-11-21 ,rtf ,1995-02-19 
+199, Syrian Arab Republic , SY , SYR ,1993-05-03 ,1996-01-04 ,rtf ,1996-04-03 
+200, Tajikistan , TJ , TJK ,,1997-10-29 ,acs ,1998-01-27 
+201, Thailand , TH , THA ,1992-06-12 ,2003-10-31 ,rtf ,2004-01-29 
+202, Timor-Leste , TL , TLS ,,2006-10-10 ,acs ,2007-01-08 
+203, Togo , TG , TGO ,1992-06-12 ,1995-10-04 ,acp ,1996-01-02 
+204, Tonga , TO , TON ,,1998-05-19 ,acs ,1998-08-17 
+205, Trinidad and Tobago , TT , TTO ,1992-06-11 ,1996-08-01 ,rtf ,1996-10-30 
+206, Tunisia , TN , TUN ,1992-06-13 ,1993-07-15 ,rtf ,1993-12-29 
+207, Türkiye ,  ,  ,1992-06-11 ,1997-02-14 ,rtf ,1997-05-15 
+208, Turkmenistan , TM , TKM ,,1996-09-18 ,acs ,1996-12-17 
+209, Tuvalu , TV , TUV ,1992-06-08 ,2002-12-20 ,rtf ,2003-03-20 
+210, Uganda , UG , UGA ,1992-06-12 ,1993-09-08 ,rtf ,1993-12-29 
+211, Ukraine , UA , UKR ,1992-06-11 ,1995-02-07 ,rtf ,1995-05-08 
+212, United Arab Emirates , AE , ARE ,1992-06-11 ,2000-02-10 ,rtf ,2000-05-10 
+213, United Kingdom of Great Britain and Northern Ireland , GB , GBR ,1992-06-12 ,1994-06-03 ,rtf ,1994-09-01 
+214, United Republic of Tanzania , TZ , TZA ,1992-06-12 ,1996-03-08 ,rtf ,1996-06-06 
+215, Uruguay , UY , URY ,1992-06-09 ,1993-11-05 ,rtf ,1994-02-03 
+216, Uzbekistan , UZ , UZB ,,1995-07-19 ,acs ,1995-10-17 
+217, Vanuatu , VU , VUT ,1992-06-09 ,1993-03-25 ,rtf ,1993-12-29 
+218, Venezuela (Bolivarian Republic of) , VE , VEN ,1992-06-12 ,1994-09-13 ,rtf ,1994-12-12 
+219, Viet Nam , VN , VNM ,1993-05-28 ,1994-11-16 ,rtf ,1995-02-14 
+220, Yemen , YE , YEM ,1992-06-12 ,1996-02-21 ,rtf ,1996-05-21 
+221, Zambia , ZM , ZMB ,1992-06-11 ,1993-05-28 ,rtf ,1993-12-29 
+222, Zimbabwe , ZW , ZWE ,1992-06-12 ,1994-11-11 ,rtf ,1995-02-09 
+223, Holy See , VA , VAT ,,,,
+224, United States of America , US , USA ,1993-06-04 ,,,
