@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 library(countrycode)
 
-setwd("C:\\Users\\Samara\\OneDrive - McGill University\\cali_fund")
+setwd("/Users/samaramanzin/Desktop/cali_fund")
 
 # Read the country list
 country_list <- read.csv("data_processed/clean_country_list.csv")
@@ -72,9 +72,14 @@ iplc_weighted <- iplc_normalized %>%
 # Join with country list to get country names and align with other data files
 iplc_data <- country_list %>%
   left_join(iplc_weighted, by = c("ISO_A3" = "iso3")) %>%
-  mutate(iplc_tk = replace_na(iplc_tk, 0.5)) %>% # Default to 0.5 for countries not in language data
   select(ISO_A3, country_name, iplc_tk) %>%
   rename("iso3" = "ISO_A3")
 
 # Write output CSV
 write.csv(iplc_data, "data_processed/iplc_tk_data.csv", row.names = FALSE)
+
+# Check for missing countries
+iplc_data <- read.csv("data_processed/iplc_tk_data.csv")
+missing_countries <- filter(iplc_data, is.na(iplc_tk)) %>% pull(iso3)
+print("Missing countries in IPLC TK data:")
+print(missing_countries)

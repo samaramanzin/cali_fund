@@ -1,7 +1,7 @@
 library(dplyr)
 library(tidyr)
 
-setwd("C:\\Users\\Samara\\OneDrive - McGill University\\cali_fund")
+setwd("/Users/samaramanzin/Desktop/cali_fund")
 
 # Read criterion data
 country_list <- read.csv("data_processed/clean_country_list.csv")
@@ -177,34 +177,3 @@ for (scenario_name in names(results)) {
   filename <- file.path(output_dir, paste0(scenario_name, ".csv"))
   write.csv(result_data, filename, row.names = FALSE)
 }
-
-# Summary of scenarios tested
-summary_data <- data.frame(
-  scenario = character(),
-  fund = character(),
-  model = character(),
-  approach = character(),
-  model_description = character(),
-  total_allocated = numeric(),
-  mean_allocation = numeric(),
-  median_allocation = numeric(),
-  stringsAsFactors = FALSE
-)
-
-for (scenario_name in names(results)) {
-  result <- results[[scenario_name]]
-  allocations <- result$allocation
-  
-  summary_data <- rbind(summary_data, data.frame(
-    scenario = result$scenario_name,
-    fund = paste0("$", result$total_fund / 1000000, "M"),
-    model = result$model,
-    approach = result$approach,
-    model_description = result$model_description,
-    total_allocated = sum(allocations, na.rm = TRUE),
-    mean_allocation = mean(allocations, na.rm = TRUE),
-    median_allocation = median(allocations, na.rm = TRUE)
-  ))
-}
-
-write.csv(summary_data, file.path(output_dir, "scenario_summary.csv"), row.names = FALSE)

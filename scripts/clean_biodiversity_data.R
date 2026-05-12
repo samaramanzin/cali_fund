@@ -102,3 +102,8 @@ gef_countries_grouped <- gef_reconciled %>%
 # Save the aggregated data
 write.csv(gef_countries_grouped, "data_processed/gef_countries.csv", row.names = FALSE)
 
+# missing countries
+gef_countries_grouped <- read.csv("data_processed/gef_countries.csv")
+missing_countries <- setdiff(country_list$ISO_A3, gef_countries_grouped$ISO3.country.code)
+print("Missing countries in GEF data:")
+print(missing_countries)

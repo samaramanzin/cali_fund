@@ -50,3 +50,9 @@ inverse <- clean_countries %>%
   select(iso3, country_name, inverse)
 
 write.csv(inverse, "data_processed/capacity.csv", row.names = FALSE)
+
+# Check for missing countries
+inverse <- read.csv("data_processed/capacity.csv")
+missing_countries <- setdiff(country_list$ISO_A3, inverse$iso3)
+print("Missing countries in capacity data:")
+print(missing_countries)
