@@ -5,10 +5,10 @@ setwd("/Users/samaramanzin/Desktop/cali_fund")
 
 # Read criterion data
 country_list <- read.csv("data_processed/clean_country_list.csv")
-CA_data <- read.csv("data_processed/gef_countries.csv")  # Will handle column selection in join
-CB_data <- read.csv("data_processed/gr_data.csv")  # Already has ISO_A3 column
-CC_data <- read.csv("data_processed/capacity.csv")       # Criterion C: Capacity needs
-CD_data <- read.csv("data_processed/iplc_tk_data.csv")   # Criterion D: IPLC/TK measures
+CA_data <- read.csv("data_processed/gef_countries.csv")
+CB_data <- read.csv("data_processed/gr_data.csv")
+CC_data <- read.csv("data_processed/capacity.csv")
+CD_data <- read.csv("data_processed/iplc_tk_data.csv")
 
 # Combine all criterion data
 country_data <- country_list %>%
@@ -44,7 +44,7 @@ country_data <- country_list %>%
                          (max(criterion_A, na.rm = TRUE) - min(criterion_A, na.rm = TRUE)),
     criterion_B_scaled = ifelse(
       max(criterion_B, na.rm = TRUE) - min(criterion_B, na.rm = TRUE) == 0,
-      0,  # If no variance, set to 0
+      0,
       (criterion_B - min(criterion_B, na.rm = TRUE)) / 
       (max(criterion_B, na.rm = TRUE) - min(criterion_B, na.rm = TRUE))
     ),
@@ -58,7 +58,7 @@ country_data <- country_list %>%
          criterion_C_scaled = 0, criterion_D_scaled = 0)
   )
 
-# Define three weight models
+# Define weight models
 weight_models <- list(
   model_1 = list(
     name = "Equal weights: A=33.3%, C=33.3%, D=33.3%, B=0%",
@@ -90,34 +90,6 @@ weight_models <- list(
   )
 )
 
-# Fund distribution approaches
-fund_approaches <- list(
-  approach_1 = "formula",      # 100% formula-based
-  approach_2 = "split_50_50"   # 50% equal distribution, 50% formula-based
-)
-
-# Fund scenarios
-fund_scenarios <- c(10000000, 100000000, 250000000, 1000000000)  # $10M, $100M, $250M, $1B
-
-# Function to calculate fund allocation using formula approach
-allocate_fund_formula <- function(country_data, total_fund, weights) {
-  n <- nrow(country_data)
-  
-  # Calculate weighted composite score for each country
-  country_data <- country_data %>%
-    dplyr::mutate(
-      composite_score = (weights$A * criterion_A_scaled +
-                        weights$B * criterion_B_scaled +
-                        weights$C * criterion_C_scaled +
-                        weights$D * criterion_D_scaled),
-      composite_score = tidyr::replace_na(composite_score, 0),
-      # Normalize scores
-      allocation = (composite_score / sum(composite_score, na.rm = TRUE)) * total_fund
-    )
-  
-  return(country_data)
-}
-
 # Function to calculate fund allocation using 50-50 split approach
 allocate_fund_split <- function(country_data, total_fund, weights) {
   n <- nrow(country_data)
@@ -135,7 +107,7 @@ allocate_fund_split <- function(country_data, total_fund, weights) {
                         weights$B * criterion_B_scaled +
                         weights$C * criterion_C_scaled +
                         weights$D * criterion_D_scaled),
-      composite_score = tidyr::replace_na(composite_score, 0),
+      composite_score = tidyr::replace_na(composite_score, 0), # currently how I'm dealing with missing data
       # Formula-based allocation for second half
       formula_allocation = (composite_score / sum(composite_score, na.rm = TRUE)) * formula_portion,
       # Total allocation: equal + formula-based
@@ -145,42 +117,31 @@ allocate_fund_split <- function(country_data, total_fund, weights) {
   return(country_data)
 }
 
-# Run all scenarios
+# Run scenarios: ONLY APPROACH 2 and $200M fund
+total_fund <- 200000000
+fund_label <- "$200M"
 results <- list()
 
-for (scenario_idx in seq_along(fund_scenarios)) {
-  total_fund <- fund_scenarios[scenario_idx]
-  fund_label <- paste0("$", total_fund / 1000000, "M")
+for (model_name in names(weight_models)) {
+  model <- weight_models[[model_name]]
+  weights <- list(A = model$A, B = model$B, C = model$C, D = model$D)
   
-  for (approach_name in names(fund_approaches)) {
-    approach_type <- fund_approaches[[approach_name]]
-    
-    for (model_name in names(weight_models)) {
-      model <- weight_models[[model_name]]
-      weights <- list(A = model$A, B = model$B, C = model$C, D = model$D)
-      
-      # Calculate allocation based on approach
-      if (approach_type == "formula") {
-        result <- allocate_fund_formula(country_data, total_fund, weights)
-      } else if (approach_type == "split_50_50") {
-        result <- allocate_fund_split(country_data, total_fund, weights)
-      }
-      
-      # Add metadata
-      result$scenario_name <- paste0(fund_label, " - ", model_name, " - ", approach_name)
-      result$total_fund <- total_fund
-      result$model <- model_name
-      result$approach <- approach_name
-      result$model_description <- model$name
-      
-      scenario_key <- paste(fund_label, model_name, approach_name, sep = "_")
-      results[[scenario_key]] <- result
-    }
-  }
+  # Calculate allocation using approach 2 (50-50 split)
+  result <- allocate_fund_split(country_data, total_fund, weights)
+  
+  # Add metadata
+  result$scenario_name <- paste0(fund_label, " - ", model_name, " - approach_2")
+  result$total_fund <- total_fund
+  result$model <- model_name
+  result$approach <- "approach_2"
+  result$model_description <- model$name
+  
+  scenario_key <- paste(fund_label, model_name, "approach_2", sep = "_")
+  results[[scenario_key]] <- result
 }
 
-# Save all results to CSV files for review
-output_dir <- "data_processed/cali_fund_scenarios"
+# Save all results to CSV files
+output_dir <- "data_processed/cali_fund_scenarios_200M_approach2"
 if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
 }
@@ -193,3 +154,5 @@ for (scenario_name in names(results)) {
   filename <- file.path(output_dir, paste0(scenario_name, ".csv"))
   write.csv(result_data, filename, row.names = FALSE)
 }
+
+

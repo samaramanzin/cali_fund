@@ -1,0 +1,155 @@
+"ISO_A3","country_name","allocation"
+"AFG","Afghanistan",1095106.95
+"ALB","Albania",834462.79
+"DZA","Algeria",756774.75
+"AGO","Angola",1042350.88
+"ATG","Antigua and Barbuda",1398974.33
+"ARG","Argentina",1066216.45
+"ARM","Armenia",882080.14
+"AZE","Azerbaijan",752842.8
+"BHS","Bahamas",819268.68
+"BHR","Bahrain",685266.29
+"BGD","Bangladesh",914562.88
+"BRB","Barbados",873839.49
+"BLR","Belarus",711462.9
+"BLZ","Belize",2167052.53
+"BEN","Benin",1048531.11
+"BTN","Bhutan",2201470.09
+"BOL","Bolivia",1114982.05
+"BIH","Bosnia-Herzegovina",776796.03
+"BWA","Botswana",859357.91
+"BRA","Brazil",2762373.96
+"BRN","Brunei Darussalam",752793.35
+"BFA","Burkino Faso",1089032.87
+"BDI","Burundi",2155399.59
+"CPV","Cabo Verde",2212596.46
+"KHM","Cambodia",936422.32
+"CMR","Cameroon",1505687.64
+"CAF","Central African Republic",2311746.87
+"TCD","Chad",1211120
+"CHL","Chile",914215.51
+"CHN","China",2360531.81
+"COL","Colombia",1810670.52
+"COM","Comoros",2174232.46
+"COG","Congo",1107517.29
+"COK","Cook Islands",679665.49
+"CRI","Costa Rica",886952.65
+"CIV","Cote d'Ivoire",790639.82
+"CUB","Cuba",862142.5
+"PRK","Dem. People's Rep.Korea",964545.47
+"COD","Dem. Rep.Congo",1512831.9
+"DJI","Djibouti",1407796.02
+"DMA","Dominica",2146456.8
+"DOM","Dominican Republic",770972.92
+"ECU","Ecuador",1293864.47
+"EGY","Egypt",743241.65
+"SLV","El Salvador",795978.32
+"GNQ","Equatorial Guinea",880337.5
+"ERI","Eritrea",2184015.55
+"SWZ","Eswatini",1399891.26
+"ETH","Ethiopia",1141494.58
+"FJI","Fiji",1245757.66
+"GAB","Gabon",927068
+"GMB","Gambia",2167134.84
+"GEO","Georgia",875959.37
+"GHA","Ghana",921849.02
+"GRD","Grenada",2141875.14
+"GTM","Guatemala",957789.88
+"GIN","Guinea",1155445.12
+"GNB","Guinea Bissau",2196617.22
+"GUY","Guyana",881156.24
+"HTI","Haiti",1013705.31
+"HND","Honduras",984176.69
+"IND","India",2298498.58
+"IDN","Indonesia",3600825.04
+"IRN","Iran (Islamic Republic of)",935657.67
+"IRQ","Iraq",739179.92
+"JAM","Jamaica",940329.96
+"JOR","Jordan",751410.87
+"KAZ","Kazakhstan",786796.91
+"KEN","Kenya",995691.05
+"KIR","Kiribati",2166724.85
+"KWT","Kuwait",670288.38
+"KGZ","Kyrgyzstan",1174380.07
+"LAO","Lao People's Dem. Rep.",1170978.68
+"LBN","Lebanon",734124.17
+"LSO","Lesotho",2142640.35
+"LBR","Liberia",2234238.34
+"LBY","Libya",747611.34
+"MDG","Madagascar",1802932.79
+"MWI","Malawi",1227982.7
+"MYS","Malaysia",1160603.97
+"MDV","Maldives",1044198.97
+"MLI","Mali",1103875.63
+"MHL","Marshall Islands",2164062.61
+"MRT","Mauritania",1181623.7
+"MUS","Mauritius",848560.97
+"MEX","Mexico",2383379.15
+"FSM","Micronesia (Fed. States of)",2221369.08
+"MNG","Mongolia",1118782.64
+"MNE","Montenegro",1040402.61
+"MAR","Morocco",755850.54
+"MOZ","Mozambique",1607573.8
+"MMR","Myanmar",1257660.44
+"NAM","Namibia",1017506.46
+"NRU","Nauru",2137579.84
+"NPL","Nepal",1076973.59
+"NIC","Nicaragua",1122242.44
+"NER","Niger",1076190.68
+"NGA","Nigeria",1757581.9
+"NIU","Niue",654703.42
+"MKD","North Macedonia",866642.51
+"OMN","Oman",750390.07
+"PAK","Pakistan",878653.61
+"PLW","Palau",2164199.85
+"PAN","Panama",909147.38
+"PNG","Papua New Guinea",2888881.84
+"PRY","Paraguay",810161.17
+"PER","Peru",1597549.37
+"PHL","Philippines",1549786.82
+"QAT","Qatar",661461.85
+"MDA","Republic of Moldova",909986.96
+"RUS","Russian Federation",1319761.16
+"RWA","Rwanda",1174747.27
+"KNA","Saint Kitts and Nevis",2131640.94
+"LCA","Saint Lucia",1408131.11
+"VCT","Saint Vincent & Grenadines",2143554.96
+"WSM","Samoa",2148950.55
+"STP","Sao Tome y Principe",2175948.95
+"SAU","Saudi Arabia",784599.63
+"SEN","Senegal",995481.29
+"SRB","Serbia",725684.63
+"SYC","Seychelles",1452369.37
+"SLE","Sierra Leone",2201090.26
+"SGP","Singapore",666911.46
+"SLB","Solomon Islands",2380890.21
+"SOM","Somalia",1523676.89
+"ZAF","South Africa",1156945.03
+"SSD","South Sudan",1128649.63
+"LKA","Sri Lanka",892901.23
+"PSE","State of Palestine",670876.82
+"SDN","Sudan",1058446.95
+"SUR","Suriname",1460969.29
+"SYR","Syrian Arab Republic",943555.17
+"TJK","Tajikistan",1190247.32
+"THA","Thailand",944041.83
+"TLS","Timor Leste",2184425.1
+"TGO","Togo",1483101.98
+"TON","Tonga",2172509.39
+"TTO","Trinidad and Tobago",737256.95
+"TUN","Tunisia",777555.36
+"TUR","Turkiye",753743.66
+"TKM","Turkmenistan",733260.86
+"TUV","Tuvalu",2138634.45
+"UGA","Uganda",951152.92
+"UKR","Ukraine",750081.87
+"ARE","United Arab Emirates",677388.84
+"TZA","United Rep. Tanzania",1391590.26
+"URY","Uruguay",720256.02
+"UZB","Uzbekistan",758922.13
+"VUT","Vanuatu",2377482.57
+"VEN","Venezuela",1270175.08
+"VNM","Viet Nam",1086883.06
+"YEM","Yemen",1272850.96
+"ZMB","Zambia",1056151.65
+"ZWE","Zimbabwe",953528.31
