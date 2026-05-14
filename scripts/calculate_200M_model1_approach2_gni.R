@@ -7,7 +7,8 @@ setwd("/Users/samaramanzin/Desktop/cali_fund")
 country_list <- read.csv("data_processed/clean_country_list.csv")
 CA_data <- read.csv("data_processed/gef_countries.csv")  # Will handle column selection in join
 CB_data <- read.csv("data_processed/gr_data.csv")  # Already has ISO_A3 column
-CC_data <- read.csv("data_processed/gni_data.csv")       # Criterion C: Using GNI data for capacity needs
+CC_data <- read.csv("data_raw/country_allocations_full.csv") %>%      # Criterion C: Using GNI data for capacity needs
+  select(iso3c, party, band_weight)
 CD_data <- read.csv("data_processed/iplc_tk_data.csv")   # Criterion D: IPLC/TK measures
 
 # Combine all criterion data
@@ -23,9 +24,9 @@ country_data <- country_list %>%
     by = "ISO_A3"
   ) %>%
   dplyr::left_join(
-    CC_data %>% select(iso3, inverse) %>% 
-      rename(criterion_C = inverse),
-    by = c("ISO_A3" = "iso3")
+    CC_data %>% select(iso3c, band_weight) %>% 
+      rename(criterion_C = band_weight),
+    by = c("ISO_A3" = "iso3c")
   ) %>%
   dplyr::left_join(
     CD_data %>% select(iso3, iplc_tk) %>% 
@@ -104,14 +105,14 @@ weights <- list(A = model$A, B = model$B, C = model$C, D = model$D)
 result <- allocate_fund_split(country_data, total_fund, weights)
 
 # Add metadata
-result$scenario_name <- paste0(fund_label, " - model_1 - ", approach_name, " - GNI")
+result$scenario_name <- paste0(fund_label, " - model_1 - ", approach_name, " - band_weight")
 result$total_fund <- total_fund
 result$model <- "model_1"
 result$approach <- approach_name
 result$model_description <- model$name
 
 # Save result to CSV file
-output_dir <- "data_processed/cali_fund_scenarios_gni"
+output_dir <- "data_processed/cali_fund_scenarios_band_weight"
 if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
 }
@@ -120,7 +121,7 @@ result_data <- result %>%
   select(ISO_A3, country_name, allocation) %>%
   mutate(allocation = round(allocation, 2))
 
-filename <- file.path(output_dir, paste0(fund_label, "_model_1_", approach_name, "_GNI.csv"))
+filename <- file.path(output_dir, paste0(fund_label, "_model_1_", approach_name, "_band_weight.csv"))
 write.csv(result_data, filename, row.names = FALSE)
 
 print(paste("Calculation complete. Results saved to:", filename))
