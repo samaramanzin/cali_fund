@@ -18,11 +18,9 @@ The workflow includes:
 ## Allocation Formula
 The Cali Fund allocation model distributes funding across countries using a weighted combination of biodiversity importance (C<sub>A</sub>), genetic resources (C<sub>B</sub>), capacity needs (C<sub>C</sub>), and IPLC/TK (C<sub>D</sub>) indicators. Each country receives an allocation score based on scaled indicator values, which is then converted into a proportional share of the total available funding.
 
-$$
-B + w_1 C_A + w_2 C_B + w_3 C_C + w_4 C_D
-$$
-Where:
+$B + w_1 C_A + w_2 C_B + w_3 C_C + w_4 C_D$
 
+Where:
 - $B$ = baseline allocation
 - $w_1$ – $w_4$ = weighting coefficients
 - $C_A$ – $C_D$ = criterion scores
