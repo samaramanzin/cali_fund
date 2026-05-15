@@ -16,7 +16,7 @@ The workflow includes:
 
 
 ## Allocation Formula
-The Cali Fund allocation model distributes funding across countries using a weighted combination of biodiversity importance (C<sub>A</sub>), genetic resources (C<sub>B</sub>), capacity needs (C<sub>C</sub>), and IPLC/TK (C<sub>D</sub>) indicators. Each country receives an allocation score based on scaled indicator values, which is then converted into a proportional share of the total available funding.
+The Cali Fund allocation model distributes funding across countries using a weighted combination of biodiversity importance $C_A$, genetic resources $C_B$, capacity needs $C_C$, and IPLC/TK $C_D$ indicators. Each country receives an allocation score based on scaled indicator values, which is then converted into a proportional share of the total available funding.
 
 $B + w_1 C_A + w_2 C_B + w_3 C_C + w_4 C_D$
 
@@ -43,16 +43,16 @@ An alternative scenario was also explored in which:
 
 ## Model Scenarios
 
-1. Criterion A, C and D are equally weighted
-2. Criterion A is weighted 50%, criterion C is weighted 25% and criterion D is weighted 25%
-3. Criterion A, C, and D at 30% each and criterion B at 10%
-* Henry's model: A=80%, C=5%, D=10%, B=5%
-* Wilson's model: A=50%, C=40%, D=5%, B=5%
-* Fuwei's model: A=40%, C=20%, D=10%, B=30%
-* Gladman's model: A=35%, C=30%, D=30%, B=5%
+1. $C_A$=1/3, $C_B$=0, $C_C$=1/3, $C_D$=1/3
+2. $C_A$=50%, $C_B$=0, $C_C$=25%, $C_D$=25%
+3. $C_A$=30%, $C_B$=10, $C_C$=30%, $C_D$=30%
+* Henry's model: $C_A$=80%, $C_B$=5%, $C_C$=5%, $C_D$=10%
+* Wilson's model: $C_A$=50%, $C_B$=5%, $C_C$=40%, $C_D$=5%
+* Fuwei's model: $C_A$=40%, $C_B$=30%, $C_C$=20%, $C_D$=10%
+* Gladman's model: $C_A$=35%, $C_B$=5%, $C_C$=30%, $C_D$=30%
 * Paul's models:
-  * model 1: A=30%, C=30%, D=30%, B=10%
-  * model 2: A=50%, C=0%, D=25%, B=25%
+  * model 1: $C_A$=30%, $C_B$=10%, $C_C$=30%, $C_D$=30%
+  * model 2: $C_A$=50%, $C_B$=25%, $C_C$=0%, $C_D$=25%
 
 ---
 
