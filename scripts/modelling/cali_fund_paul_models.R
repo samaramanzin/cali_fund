@@ -1,3 +1,6 @@
+# This script calculates fund allocations for the $200M fund using the 50-50 split approach (approach 2) for two different weight models proposed by Paul. 
+# outputs are saved in data_processed/outputs/cali_fund_scenarios_200M_approach2_paul_models
+
 library(dplyr)
 library(tidyr)
 library(countrycode)
@@ -5,12 +8,11 @@ library(countrycode)
 setwd("/Users/samaramanzin/Desktop/cali_fund")
 
 # Read criterion data
-country_list <- read.csv("data_processed/clean_country_list.csv")
-CA_data <- read.csv("data_processed/gef_countries.csv")
-CB_data <- read.csv("data_processed/gr_data.csv")
-CC_data <- read.csv("data_processed/gini-minimum-country-annex.csv")
-CD_data <- read.csv("data_processed/iplc_tk_data.csv")
-
+country_list <- read.csv("data_processed/clean_data/clean_country_list.csv")
+CA_data <- read.csv("data_processed/clean_data/gef_countries.csv")
+CB_data <- read.csv("data_processed/clean_data/gr_data.csv")
+CC_data <- read.csv("data_processed/clean_data/gini-minimum-country-annex.csv")
+CD_data <- read.csv("data_processed/clean_data/iplc_tk_data.csv")
 # add iso-codes to gini data for easier merging
 CC_data <- CC_data %>%
     mutate(iso3 = countrycode(party, origin = "country.name", destination = "iso3c"))
@@ -126,7 +128,7 @@ for (model_name in names(weight_models)) {
 }
 
 # Save all results to CSV files
-output_dir <- "data_processed/cali_fund_scenarios_200M_approach2_paul_models"
+output_dir <- "data_processed/outputs/cali_fund_scenarios_200M_approach2_paul_models"
 if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
 }

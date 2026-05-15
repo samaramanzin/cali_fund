@@ -1,12 +1,19 @@
+# Code to clean capacity data from the UN scale of assessments dataset
+# This is a possible dataset for Criterion C
+
 library(readxl)
 library(dplyr)
 library(countrycode)
+library(stringr)
+library(readr)
 
-setwd("C:\\Users\\Samara\\OneDrive - McGill University\\cali_fund")
+setwd("/Users/samaramanzin/Desktop/cali_fund")
 
-country_list <- read.csv("data_processed\\clean_country_list.csv")
+# Read in country list for filtering later
+country_list <- read.csv("data_processed/clean_data/clean_country_list.csv")
 
-raw <- read_excel("data_raw\\Scale of Assessments for RB 1946-2027.xlsx", skip = 2)
+# Read in UN scale of assessments data
+raw <- read_excel("data_raw/Scale of Assessments for RB 1946-2027.xlsx", skip = 2)
 head(raw)
 
 # Rename first column
@@ -41,18 +48,24 @@ clean <- raw %>%
     !is.na(value)
   )
 
-clean_countries <- clean %>%
-  mutate(iso3 = countrycode(country_name, origin = "country.name", destination = "iso3c")) %>% 
+# adding iso3 codes
+clean_iso <- clean %>%
+  mutate(iso3 = countrycode(country_name, origin = "country.name", 
+                            destination = "iso3c", custom_match = c("Micronesia" = "FSM")))
+
+# filtering
+clean_filtered <- clean_iso %>%
   filter(iso3 %in% country_list$ISO_A3)
 
-inverse <- clean_countries %>%
+# inverting values for capacity needs (higher value = higher need)
+inverse <- clean_filtered %>%
   mutate(inverse = 1/value) %>%
   select(iso3, country_name, inverse)
 
-write.csv(inverse, "data_processed/capacity.csv", row.names = FALSE)
+write.csv(inverse, "data_processed/clean_data/capacity.csv", row.names = FALSE)
 
 # Check for missing countries
-inverse <- read.csv("data_processed/capacity.csv")
+inverse <- read.csv("data_processed/clean_data/capacity.csv")
 missing_countries <- setdiff(country_list$ISO_A3, inverse$iso3)
 print("Missing countries in capacity data:")
 print(missing_countries)

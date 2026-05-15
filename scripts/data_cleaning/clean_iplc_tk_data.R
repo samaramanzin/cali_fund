@@ -1,3 +1,6 @@
+# This script processes the CBD party languages data to create the IPLC TK indicator dataset.
+# This is a possible dataset for Criterion D
+
 library(readxl)
 library(dplyr)
 library(tidyr)
@@ -6,7 +9,7 @@ library(countrycode)
 setwd("/Users/samaramanzin/Desktop/cali_fund")
 
 # Read the country list
-country_list <- read.csv("data_processed/clean_country_list.csv")
+country_list <- read.csv("data_processed/clean_data/clean_country_list.csv")
 
 # Read CBD party languages data
 languages <- read.csv("data_raw/cbd_party_languages.csv")
@@ -20,7 +23,6 @@ linguistic_diversity <- languages %>%
   mutate(core.countries = trimws(core.countries)) %>%
   # Convert ISO2 to ISO3 country codes
   mutate(iso3 = countrycode(core.countries, origin = "iso2c", destination = "iso3c")) %>%
-  filter(!is.na(iso3)) %>% # Remove entries that couldn't be converted
   # Count unique languages per country
   group_by(iso3) %>%
   summarise(
@@ -30,21 +32,24 @@ linguistic_diversity <- languages %>%
 
 # Create placeholders for the other three indicators
 # These will be NA/empty for now as they should be sourced from other data
-indicator_22_1 <- linguistic_diversity %>%
-  select(iso3) %>%
-  mutate(indicator_22_1 = NA_real_)
+indicator_22_1 <- country_list %>%
+  select(ISO_A3) %>%
+  mutate(indicator_22_1 = NA_real_) %>%
+  rename(iso3 = ISO_A3)
 
-indicator_9_2 <- linguistic_diversity %>%
-  select(iso3) %>%
-  mutate(indicator_9_2 = NA_real_)
+indicator_9_2 <- country_list %>%
+  select(ISO_A3) %>%
+  mutate(indicator_9_2 = NA_real_) %>%
+  rename(iso3 = ISO_A3)
 
-indicator_22_b <- linguistic_diversity %>%
-  select(iso3) %>%
-  mutate(indicator_22_b = NA_real_)
+indicator_22_b <- country_list %>%
+  select(ISO_A3) %>%
+  mutate(indicator_22_b = NA_real_) %>%
+  rename(iso3 = ISO_A3)
 
 # Combine all indicators
-iplc_indicators <- linguistic_diversity %>%
-  left_join(indicator_22_1, by = "iso3") %>%
+iplc_indicators <- indicator_22_1 %>%
+  left_join(linguistic_diversity, by = "iso3") %>%
   left_join(indicator_9_2, by = "iso3") %>%
   left_join(indicator_22_b, by = "iso3")
 
@@ -76,10 +81,10 @@ iplc_data <- country_list %>%
   rename("iso3" = "ISO_A3")
 
 # Write output CSV
-write.csv(iplc_data, "data_processed/iplc_tk_data.csv", row.names = FALSE)
+write.csv(iplc_data, "data_processed/clean_data/iplc_tk_data.csv", row.names = FALSE)
 
 # Check for missing countries
-iplc_data <- read.csv("data_processed/iplc_tk_data.csv")
+iplc_data <- read.csv("data_processed/clean_data/iplc_tk_data.csv")
 missing_countries <- filter(iplc_data, is.na(iplc_tk)) %>% pull(iso3)
 print("Missing countries in IPLC TK data:")
 print(missing_countries)

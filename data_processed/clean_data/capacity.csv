@@ -1,0 +1,152 @@
+"iso3","country_name","inverse"
+"AFG","Afghanistan",200
+"ALB","Albania",100
+"DZA","Algeria",11.4942528735632
+"AGO","Angola",100
+"ATG","Antigua and Barbuda",500
+"ARG","Argentina",2.04081632653061
+"ARM","Armenia",142.857142857143
+"AZE","Azerbaijan",29.4117647058824
+"BHS","Bahamas",66.6666666666667
+"BHR","Bahrain",20
+"BGD","Bangladesh",100
+"BRB","Barbados",142.857142857143
+"BLR","Belarus",23.2558139534884
+"BLZ","Belize",1000
+"BEN","Benin",200
+"BTN","Bhutan",1000
+"BOL","Bolivia",55.5555555555556
+"BIH","Bosnia and Herzegovina",71.4285714285714
+"BWA","Botswana",76.923076923077
+"BRA","Brazil",0.70871722182849
+"BRN","Brunei Darussalam",52.6315789473684
+"BFA","Burkina Faso",200
+"BDI","Burundi",1000
+"CPV","Cabo Verde",1000
+"KHM","Cambodia",125
+"CMR","Cameroon",71.4285714285714
+"CAF","Central African Republic",1000
+"TCD","Chad",200
+"CHL","Chile",2.67379679144385
+"CHN","China",0.0499900019996001
+"COL","Colombia",5.0761421319797
+"COM","Comoros",1000
+"COG","Congo",200
+"CRI","Costa Rica",15.8730158730159
+"CIV","Cote d'Ivoire",41.6666666666667
+"CUB","Cuba",8.19672131147541
+"PRK","Democratic People's Republic of Korea",200
+"COD","Democratic Republic of the Congo",100
+"DJI","Djibouti",500
+"DMA","Dominica",1000
+"DOM","Dominican Republic",14.4927536231884
+"ECU","Ecuador",15.3846153846154
+"EGY","Egypt",5.49450549450549
+"SLV","El Salvador",76.923076923077
+"GNQ","Equatorial Guinea",125
+"ERI","Eritrea",1000
+"SWZ","Eswatini",500
+"ETH","Ethiopia",100
+"FJI","Fiji",333.333333333333
+"GAB","Gabon",90.909090909091
+"GMB","Gambia",1000
+"GEO","Georgia",111.111111111111
+"GHA","Ghana",40
+"GRD","Grenada",1000
+"GTM","Guatemala",21.7391304347826
+"GIN","Guinea",250
+"GNB","Guinea-Bissau",1000
+"GUY","Guyana",90.909090909091
+"HTI","Haiti",166.666666666667
+"HND","Honduras",100
+"IND","India",0.904159132007233
+"IDN","Indonesia",1.72711571675302
+"IRN","Iran",2.59067357512953
+"IRQ","Iraq",7.63358778625954
+"JAM","Jamaica",142.857142857143
+"JOR","Jordan",47.6190476190476
+"KAZ","Kazakhstan",7.63358778625954
+"KEN","Kenya",27.027027027027
+"KIR","Kiribati",1000
+"KWT","Kuwait",4.5045045045045
+"KGZ","Kyrgyzstan",333.333333333333
+"LAO","Lao People's Democratic Republic",166.666666666667
+"LBN","Lebanon",45.4545454545455
+"LSO","Lesotho",1000
+"LBR","Liberia",1000
+"LBY","Libya",25
+"MDG","Madagascar",250
+"MWI","Malawi",333.333333333333
+"MYS","Malaysia",3.06748466257669
+"MDV","Maldives",250
+"MLI","Mali",200
+"MHL","Marshall Islands",1000
+"MRT","Mauritania",333.333333333333
+"MUS","Mauritius",100
+"MEX","Mexico",0.879507475813544
+"FSM","Micronesia",1000
+"MNG","Mongolia",250
+"MNE","Montenegro",250
+"MAR","Morocco",16.9491525423729
+"MOZ","Mozambique",500
+"MMR","Myanmar",100
+"NAM","Namibia",142.857142857143
+"NRU","Nauru",1000
+"NPL","Nepal",100
+"NIC","Nicaragua",250
+"NER","Niger",250
+"NGA","Nigeria",6.66666666666667
+"MKD","North Macedonia",125
+"OMN","Oman",8.69565217391304
+"PAK","Pakistan",8.13008130081301
+"PLW","Palau",1000
+"PAN","Panama",11.6279069767442
+"PNG","Papua New Guinea",111.111111111111
+"PRY","Paraguay",43.4782608695652
+"PER","Peru",6.89655172413793
+"PHL","Philippines",5.05050505050505
+"QAT","Qatar",4.08163265306122
+"MDA","Republic of Moldova",166.666666666667
+"RUS","Russian Federation",0.477554918815664
+"RWA","Rwanda",333.333333333333
+"KNA","Saint Kitts and Nevis",1000
+"LCA","Saint Lucia",500
+"VCT","Saint Vincent and the Grenadines",1000
+"WSM","Samoa",1000
+"STP","Sao Tome and Principe",1000
+"SAU","Saudi Arabia",0.821692686935086
+"SEN","Senegal",142.857142857143
+"SRB","Serbia",25
+"SYC","Seychelles",500
+"SLE","Sierra Leone",1000
+"SGP","Singapore",2.08768267223382
+"SLB","Solomon Islands",1000
+"SOM","Somalia",500
+"ZAF","South Africa",3.98406374501992
+"SSD","South Sudan",200
+"LKA","Sri Lanka",26.3157894736842
+"SDN","Sudan",125
+"SUR","Suriname",500
+"SYR","Syrian Arab Republic",166.666666666667
+"TJK","Tajikistan",333.333333333333
+"THA","Thailand",2.93255131964809
+"TLS","Timor-Leste",1000
+"TGO","Togo",500
+"TON","Tonga",1000
+"TTO","Trinidad and Tobago",30.3030303030303
+"TUN","Tunisia",55.5555555555556
+"TUR","Türkiye",1.45985401459854
+"TKM","Turkmenistan",27.7777777777778
+"TUV","Tuvalu",1000
+"UGA","Uganda",100
+"UKR","Ukraine",13.5135135135135
+"ARE","United Arab Emirates",1.74216027874564
+"TZA","United Republic of Tanzania",100
+"URY","Uruguay",12.6582278481013
+"UZB","Uzbekistan",41.6666666666667
+"VUT","Vanuatu",1000
+"VEN","Venezuela",14.4927536231884
+"VNM","Viet Nam",6.28930817610063
+"YEM","Yemen",333.333333333333
+"ZMB","Zambia",166.666666666667
+"ZWE","Zimbabwe",142.857142857143

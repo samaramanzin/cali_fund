@@ -25,8 +25,8 @@ $$
 Where:
 
 - $B$ = baseline allocation
-- $w_1$–$w_4$ = weighting coefficients
-- $C_A$–$C_D$ = criterion scores
+- $w_1$ – $w_4$ = weighting coefficients
+- $C_A$ – $C_D$ = criterion scores
 
 The criteria and weighting structure can be modified to explore alternative allocation scenarios and sensitivities.
 

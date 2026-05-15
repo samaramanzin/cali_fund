@@ -1,20 +1,14 @@
-library(readxl)
-library(tidyverse)
+# This script reads in the list of countries eligible for funding and cleans it
 
-setwd("C:/Users/Samara/OneDrive - McGill University/cali_fund")
+library(readxl)
+library(dplyr)
+library(purrr)
+
+setwd("/Users/samaramanzin/Desktop/cali_fund")
 
 # Read in the list of countries eligible for funding, which is in a weird format (numbers and country names are in adjacent columns)
 country_list <- read_xls("data_raw/List of countries eligible for funding_April-2026.xls")
 head(country_list)
-
-# Read in the list of CBD parties, which have country codes etc.
-cbd_parties <- read.csv("data_raw/cbd_parties.csv") %>%
-  rename(country_name = Country) %>%
-  mutate(
-    country_name = trimws(country_name),
-    ISO_A3 = trimws(ISO_A3)
-  )
-head(cbd_parties)
 
 # Function to test if something is a number
 is_number <- function(x) {
@@ -50,8 +44,20 @@ clean_country_list <- map_dfr(2:ncol(country_list), function(i) {
   arrange(country_name)
 
 clean_country_list <- clean_country_list %>%
-  left_join(cbd_parties %>% select(country_name, ISO_A3), by = "country_name")
-head(clean_country_list)
+  mutate(
+    country_name_clean = country_name %>%
+      str_trim() %>%
+      str_remove_all("\\*") %>%
+      str_remove_all("\\s*\\([^\\)]+\\)") %>%
+      str_squish()
+  ) %>%
+  mutate(
+    ISO_A3 = countrycode(
+      country_name_clean,
+      origin = "country.name",
+      destination = "iso3c",
+      custom_match = c("Micronesia" = "FSM"))) %>%
+  select(-country_name_clean)
 
 # Save checklist
-write.csv(clean_country_list, "data_processed/clean_country_list.csv", row.names = FALSE)
+write.csv(clean_country_list, "data_processed/clean_data/clean_country_list.csv", row.names = FALSE)
