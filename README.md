@@ -3,7 +3,6 @@ This repository contains all of the code and data to create reproducible workflo
 
 This repository contains scripts, workflows, and supporting data processing steps used to develop allocation models for the Cali Fund. The project aims to provide a transparent and reproducible framework for exploring how funds could be distributed across countries under different weighting schemes and indicator selections.
 
----
 
 ## Overview
 
@@ -13,10 +12,11 @@ The workflow includes:
 - Standardizing indicators and country identifiers
 - Exploring allocation methodologies
 - Running allocation scenarios
-
+  
+---
 
 ## Allocation Formula
-The Cali Fund allocation model distributes funding across countries using a weighted combination of biodiversity importance $C_A$, genetic resources $C_B$, capacity needs $C_C$, and IPLC/TK $C_D$ indicators. Each country receives an allocation score based on scaled indicator values, which is then converted into a proportional share of the total available funding.
+The Cali Fund allocation model distributes funding across countries using a weighted combination of biodiversity importance ($C_A$), genetic resources ($C_B$), capacity needs ($C_C$), and IPLC/TK ($C_D$) indicators. Each country receives an allocation score based on scaled indicator values, which is then converted into a proportional share of the total available funding.
 
 $B + w_1 C_A + w_2 C_B + w_3 C_C + w_4 C_D$
 
@@ -27,7 +27,6 @@ Where:
 
 The criteria and weighting structure can be modified to explore alternative allocation scenarios and sensitivities.
 
----
 
 ## Allocation Scenarios
 Two primary allocation approaches were explored within this modelling framework.
