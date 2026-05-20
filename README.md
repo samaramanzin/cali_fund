@@ -1,7 +1,5 @@
 # Cali Fund Allocation Models
-This repository contains all of the code and data to create reproducible workflow for modelling and exploring allocation scenarios for the Cali Fund established under the Convention on Biological Diversity by decision 16/2. The repository focuses on models that combine biodiversity, capacity, genetic resouces, and IPLC/TK indicators for consideration by the AHTEG.
-
-This repository contains scripts, workflows, and supporting data processing steps used to develop allocation models for the Cali Fund. The project aims to provide a transparent and reproducible framework for exploring how funds could be distributed across countries under different weighting schemes and indicator selections.
+This repository contains all of the code and data to create reproducible workflow for modelling and exploring allocation scenarios for the Cali Fund established under the Convention on Biological Diversity by decision 16/2. The repository focuses on models that combine biodiversity, capacity, genetic resouces, and IPLC/TK indicators for consideration by the AHTEG. The project aims to provide a transparent and reproducible framework for exploring how funds could be distributed across countries under different weighting schemes and indicator selections.
 
 
 ## Overview
@@ -49,7 +47,7 @@ An alternative scenario was also explored in which:
 * Wilson's model: $C_A$=50%, $C_B$=5%, $C_C$=40%, $C_D$=5%
 * Fuwei's model: $C_A$=40%, $C_B$=30%, $C_C$=20%, $C_D$=10%
 * Gladman's model: $C_A$=35%, $C_B$=5%, $C_C$=30%, $C_D$=30%
-* Paul's models:
+* Paul's models (data from models developed in: https://github.com/tierravivaai/cali-fund-allocation-model.git):
   * model 1: $C_A$=30%, $C_B$=10%, $C_C$=30%, $C_D$=30%
   * model 2: $C_A$=50%, $C_B$=25%, $C_C$=0%, $C_D$=25%
 
@@ -69,8 +67,7 @@ Missing values are currently being handeled as 0s in the model. This can be upda
 
 ### Scaling and Standardization
 
-Indicators were rescaled between 0 and 1 prior to modelling to ensure comparability across datasets with different units and value ranges.
-This was done using min-max normalization.
+Indicators were rescaled between 0 and 1 prior to modelling to ensure comparability across datasets with different units and value ranges. This was done using min-max normalization.
 
 ---
 
