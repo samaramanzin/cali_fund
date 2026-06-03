@@ -1,0 +1,155 @@
+"country_name","ISO_A3","country_category","is_ldc","is_sids"
+"Afghanistan","AFG","Least developed countries",TRUE,FALSE
+"Angola","AGO","Least developed countries",TRUE,FALSE
+"Albania","ALB","Economies in transition",FALSE,FALSE
+"United Arab Emirates","ARE","Other developing countries",FALSE,FALSE
+"Argentina","ARG","Other developing countries",FALSE,FALSE
+"Armenia","ARM","Economies in transition",FALSE,FALSE
+"Antigua and Barbuda","ATG","Small island developing states",FALSE,TRUE
+"Azerbaijan","AZE","Economies in transition",FALSE,FALSE
+"Burundi","BDI","Least developed countries",TRUE,FALSE
+"Benin","BEN","Least developed countries",TRUE,FALSE
+"Burkino Faso","BFA","Least developed countries",TRUE,FALSE
+"Bangladesh","BGD","Least developed countries",TRUE,FALSE
+"Bahrain","BHR","Other developing countries",FALSE,FALSE
+"Bahamas","BHS","Small island developing states",FALSE,TRUE
+"Bosnia-Herzegovina","BIH","Economies in transition",FALSE,FALSE
+"Belarus","BLR","Economies in transition",FALSE,FALSE
+"Belize","BLZ","Small island developing states",FALSE,TRUE
+"Bolivia","BOL","Other developing countries",FALSE,FALSE
+"Brazil","BRA","Other developing countries",FALSE,FALSE
+"Barbados","BRB","Small island developing states",FALSE,TRUE
+"Brunei Darussalam","BRN","Other developing countries",FALSE,FALSE
+"Bhutan","BTN","Other developing countries",FALSE,FALSE
+"Botswana","BWA","Other developing countries",FALSE,FALSE
+"Central African Republic","CAF","Least developed countries",TRUE,FALSE
+"Chile","CHL","Other developing countries",FALSE,FALSE
+"China","CHN","Other developing countries",FALSE,FALSE
+"Cote d'Ivoire","CIV","Other developing countries",FALSE,FALSE
+"Cameroon","CMR","Other developing countries",FALSE,FALSE
+"Dem. Rep.Congo","COD","Least developed countries",TRUE,FALSE
+"Congo","COG","Other developing countries",FALSE,FALSE
+"Cook Islands","COK","Small island developing states",FALSE,TRUE
+"Colombia","COL","Other developing countries",FALSE,FALSE
+"Comoros","COM","Small island developing states",TRUE,TRUE
+"Cabo Verde","CPV","Small island developing states",FALSE,TRUE
+"Costa Rica","CRI","Other developing countries",FALSE,FALSE
+"Cuba","CUB","Small island developing states",FALSE,TRUE
+"Djibouti","DJI","Least developed countries",TRUE,FALSE
+"Dominica","DMA","Small island developing states",FALSE,TRUE
+"Dominican Republic","DOM","Small island developing states",FALSE,TRUE
+"Algeria","DZA","Other developing countries",FALSE,FALSE
+"Ecuador","ECU","Other developing countries",FALSE,FALSE
+"Egypt","EGY","Other developing countries",FALSE,FALSE
+"Eritrea","ERI","Least developed countries",TRUE,FALSE
+"Ethiopia","ETH","Least developed countries",TRUE,FALSE
+"Fiji","FJI","Small island developing states",FALSE,TRUE
+"Micronesia (Fed. States of)","FSM","Small island developing states",FALSE,TRUE
+"Gabon","GAB","Other developing countries",FALSE,FALSE
+"Georgia","GEO","Economies in transition",FALSE,FALSE
+"Ghana","GHA","Other developing countries",FALSE,FALSE
+"Guinea","GIN","Least developed countries",TRUE,FALSE
+"Gambia","GMB","Least developed countries",TRUE,FALSE
+"Guinea Bissau","GNB","Small island developing states",TRUE,TRUE
+"Equatorial Guinea","GNQ","Other developing countries",FALSE,FALSE
+"Grenada","GRD","Small island developing states",FALSE,TRUE
+"Guatemala","GTM","Other developing countries",FALSE,FALSE
+"Guyana","GUY","Small island developing states",FALSE,TRUE
+"Honduras","HND","Other developing countries",FALSE,FALSE
+"Haiti","HTI","Small island developing states",TRUE,TRUE
+"Indonesia","IDN","Other developing countries",FALSE,FALSE
+"India","IND","Other developing countries",FALSE,FALSE
+"Iran (Islamic Republic of)","IRN","Other developing countries",FALSE,FALSE
+"Iraq","IRQ","Other developing countries",FALSE,FALSE
+"Jamaica","JAM","Small island developing states",FALSE,TRUE
+"Jordan","JOR","Other developing countries",FALSE,FALSE
+"Kazakhstan","KAZ","Economies in transition",FALSE,FALSE
+"Kenya","KEN","Other developing countries",FALSE,FALSE
+"Kyrgyzstan","KGZ","Economies in transition",FALSE,FALSE
+"Cambodia","KHM","Least developed countries",TRUE,FALSE
+"Kiribati","KIR","Small island developing states",TRUE,TRUE
+"Saint Kitts and Nevis","KNA","Small island developing states",FALSE,TRUE
+"Kuwait","KWT","Other developing countries",FALSE,FALSE
+"Lao People's Dem. Rep.","LAO","Least developed countries",TRUE,FALSE
+"Lebanon","LBN","Other developing countries",FALSE,FALSE
+"Liberia","LBR","Least developed countries",TRUE,FALSE
+"Libya","LBY","Other developing countries",FALSE,FALSE
+"Saint Lucia","LCA","Small island developing states",FALSE,TRUE
+"Sri Lanka","LKA","Other developing countries",FALSE,FALSE
+"Lesotho","LSO","Least developed countries",TRUE,FALSE
+"Morocco","MAR","Other developing countries",FALSE,FALSE
+"Republic of Moldova","MDA","Economies in transition",FALSE,FALSE
+"Madagascar","MDG","Least developed countries",TRUE,FALSE
+"Maldives","MDV","Small island developing states",FALSE,TRUE
+"Mexico","MEX","Other developing countries",FALSE,FALSE
+"Marshall Islands","MHL","Small island developing states",FALSE,TRUE
+"North Macedonia","MKD","Economies in transition",FALSE,FALSE
+"Mali","MLI","Least developed countries",TRUE,FALSE
+"Myanmar","MMR","Least developed countries",TRUE,FALSE
+"Montenegro","MNE","Economies in transition",FALSE,FALSE
+"Mongolia","MNG","Other developing countries",FALSE,FALSE
+"Mozambique","MOZ","Least developed countries",TRUE,FALSE
+"Mauritania","MRT","Least developed countries",TRUE,FALSE
+"Mauritius","MUS","Small island developing states",FALSE,TRUE
+"Malawi","MWI","Least developed countries",TRUE,FALSE
+"Malaysia","MYS","Other developing countries",FALSE,FALSE
+"Namibia","NAM","Other developing countries",FALSE,FALSE
+"Niger","NER","Least developed countries",TRUE,FALSE
+"Nigeria","NGA","Other developing countries",FALSE,FALSE
+"Nicaragua","NIC","Other developing countries",FALSE,FALSE
+"Niue","NIU","Small island developing states",FALSE,TRUE
+"Nepal","NPL","Least developed countries",TRUE,FALSE
+"Nauru","NRU","Small island developing states",FALSE,TRUE
+"Oman","OMN","Other developing countries",FALSE,FALSE
+"Pakistan","PAK","Other developing countries",FALSE,FALSE
+"Panama","PAN","Other developing countries",FALSE,FALSE
+"Peru","PER","Other developing countries",FALSE,FALSE
+"Philippines","PHL","Other developing countries",FALSE,FALSE
+"Palau","PLW","Small island developing states",FALSE,TRUE
+"Papua New Guinea","PNG","Small island developing states",FALSE,TRUE
+"Dem. People's Rep.Korea","PRK","Other developing countries",FALSE,FALSE
+"Paraguay","PRY","Other developing countries",FALSE,FALSE
+"State of Palestine","PSE","Other developing countries",FALSE,FALSE
+"Qatar","QAT","Other developing countries",FALSE,FALSE
+"Russian Federation","RUS","Economies in transition",FALSE,FALSE
+"Rwanda","RWA","Least developed countries",TRUE,FALSE
+"Saudi Arabia","SAU","Other developing countries",FALSE,FALSE
+"Sudan","SDN","Least developed countries",TRUE,FALSE
+"Senegal","SEN","Least developed countries",TRUE,FALSE
+"Singapore","SGP","Small island developing states",FALSE,TRUE
+"Solomon Islands","SLB","Small island developing states",TRUE,TRUE
+"Sierra Leone","SLE","Least developed countries",TRUE,FALSE
+"El Salvador","SLV","Other developing countries",FALSE,FALSE
+"Somalia","SOM","Least developed countries",TRUE,FALSE
+"Serbia","SRB","Economies in transition",FALSE,FALSE
+"South Sudan","SSD","Least developed countries",TRUE,FALSE
+"Sao Tome y Principe","STP","Small island developing states",FALSE,TRUE
+"Suriname","SUR","Small island developing states",FALSE,TRUE
+"Eswatini","SWZ","Other developing countries",FALSE,FALSE
+"Seychelles","SYC","Small island developing states",FALSE,TRUE
+"Syrian Arab Republic","SYR","Other developing countries",FALSE,FALSE
+"Chad","TCD","Least developed countries",TRUE,FALSE
+"Togo","TGO","Least developed countries",TRUE,FALSE
+"Thailand","THA","Other developing countries",FALSE,FALSE
+"Tajikistan","TJK","Economies in transition",FALSE,FALSE
+"Turkmenistan","TKM","Economies in transition",FALSE,FALSE
+"Timor Leste","TLS","Small island developing states",TRUE,TRUE
+"Tonga","TON","Small island developing states",FALSE,TRUE
+"Trinidad and Tobago","TTO","Small island developing states",FALSE,TRUE
+"Tunisia","TUN","Other developing countries",FALSE,FALSE
+"Turkiye","TUR","Other developing countries",FALSE,FALSE
+"Tuvalu","TUV","Small island developing states",TRUE,TRUE
+"United Rep. Tanzania","TZA","Least developed countries",TRUE,FALSE
+"Uganda","UGA","Least developed countries",TRUE,FALSE
+"Ukraine","UKR","Economies in transition",FALSE,FALSE
+"Uruguay","URY","Other developing countries",FALSE,FALSE
+"Uzbekistan","UZB","Economies in transition",FALSE,FALSE
+"Saint Vincent & Grenadines","VCT","Small island developing states",FALSE,TRUE
+"Venezuela","VEN","Other developing countries",FALSE,FALSE
+"Viet Nam","VNM","Other developing countries",FALSE,FALSE
+"Vanuatu","VUT","Small island developing states",FALSE,TRUE
+"Samoa","WSM","Small island developing states",FALSE,TRUE
+"Yemen","YEM","Least developed countries",TRUE,FALSE
+"South Africa","ZAF","Other developing countries",FALSE,FALSE
+"Zambia","ZMB","Least developed countries",TRUE,FALSE
+"Zimbabwe","ZWE","Other developing countries",FALSE,FALSE
