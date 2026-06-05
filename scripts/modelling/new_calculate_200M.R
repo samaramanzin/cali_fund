@@ -4,11 +4,12 @@
 # Model 2 applies a 25% uplift to the base allocation for LDCs and SIDS, then
 # allocates the remaining funds using equal weights across four criteria.
 # Criterion B is a placeholder for country of origin of DSI in databases and is set to 0.
-# outputs are saved in data_processed/outputs/cali_fund_scenarios_model1_model2
+# outputs are saved in data_processed/outputs/final_cali)fund_scenarios
 
 library(dplyr)
 library(tidyr)
 
+# Set working directory
 setwd("/Users/samaramanzin/Desktop/cali_fund")
 
 # Read criterion data
@@ -18,7 +19,7 @@ CB_data <- read.csv("data_processed/clean_data/gr_data.csv")        # Criterion 
 CC_band_data <- read.csv("data_raw/country_allocations_full.csv") %>% # Criterion C for Model 1
   select(iso3c, party, band_weight)
 CC_gni_data <- read.csv("data_processed/clean_data/gni_data_2.csv")   # Criterion C for Model 2
-CD_data <- read.csv("data_processed/clean_data/iplc_tk_data.csv")   # Criterion D: linguistic diversity/TK
+CD_data <- read.csv("data_processed/clean_data/cbd_party_language_count.csv")   # Criterion D: linguistic diversity/TK
 
 # function to scale values between 0 and 1, handling cases where all values are the same or NA
 scale_0_1 <- function(x) {
@@ -51,9 +52,9 @@ build_country_data <- function(country_list, capacity_data, capacity_column, cap
       by = c("ISO_A3" = "iso3")
     ) %>%
     dplyr::left_join(
-      CD_data %>% select(iso3, iplc_tk) %>%
-        rename(criterion_D = iplc_tk),
-      by = c("ISO_A3" = "iso3")
+      CD_data %>% select(iso_a3, language_count) %>%
+        rename(criterion_D = language_count),
+      by = c("ISO_A3" = "iso_a3")
     ) %>%
     dplyr::mutate(
       criterion_A = as.numeric(criterion_A),
@@ -175,7 +176,7 @@ results <- list(
 )
 
 # Save results to CSV files
-output_dir <- "data_processed/outputs/cali_fund_scenarios_model1_model2"
+output_dir <- "data_processed/outputs/final_cali_fund_scenarios"
 if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
 }
@@ -195,4 +196,66 @@ for (model_name in names(results)) {
 
   print(paste("Calculation complete. Results saved to:", filename))
   print(paste("Rounded allocation total:", round(sum(result_data$allocation), 2)))
+}
+
+# Checks on results
+for (model_name in names(results)) {
+  result_data <- results[[model_name]]
+  total_allocation <- sum(result_data$allocation, na.rm = TRUE)
+  print(paste("Total allocation for", model_name, ":", total_allocation))
+}
+
+# Check distribution of allocations
+for (model_name in names(results)) {
+  result_data <- results[[model_name]]
+  print(paste("Allocation summary for", model_name, ":"))
+  print(summary(result_data$allocation))
+}
+
+# Check for any negative allocations
+for (model_name in names(results)) {
+  result_data <- results[[model_name]]
+  negative_allocations <- result_data %>% filter(allocation < 0)
+  if (nrow(negative_allocations) > 0) {
+    print(paste("Negative allocations found in", model_name, ":"))
+    print(negative_allocations)
+  } else {
+    print(paste("No negative allocations in", model_name))
+  }
+}
+
+# Check for any NA allocations
+for (model_name in names(results)) {
+  result_data <- results[[model_name]]    
+  na_allocations <- result_data %>% filter(is.na(allocation))
+  if (nrow(na_allocations) > 0) {
+    print(paste("NA allocations found in", model_name, ":"))
+    print(na_allocations)
+  } else {
+    print(paste("No NA allocations in", model_name))
+  }
+
+# Check total allocation matches total fund
+  total_allocation <- sum(result_data$allocation, na.rm = TRUE)
+  if (round(total_allocation, 2) != total_fund) {
+    print(paste("Total allocation does not match total fund in", model_name, ":"))
+    print(paste("Total allocation:", round(total_allocation, 2), "Total fund:", total_fund))
+  } else {
+    print(paste("Total allocation matches total fund in", model_name))
+  }
+}
+
+# Check distribution of allocations by country category
+for (model_name in names(results)) {
+  result_data <- results[[model_name]]
+  print(paste("Allocation summary by country category for", model_name, ":"))
+  print(result_data %>%    group_by(country_category) %>%
+    summarise(
+      count = n(),
+      total_allocation = sum(allocation, na.rm = TRUE),
+      mean_allocation = mean(allocation, na.rm = TRUE),
+      median_allocation = median(allocation, na.rm = TRUE),
+      min_allocation = min(allocation, na.rm = TRUE),
+      max_allocation = max(allocation, na.rm = TRUE)
+    ))
 }

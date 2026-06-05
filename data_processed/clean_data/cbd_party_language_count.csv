@@ -1,0 +1,196 @@
+country_name,iso_a2,iso_a3,language_count
+Papua New Guinea,PG,PNG,899
+Indonesia,ID,IDN,756
+Nigeria,NG,NGA,589
+India,IN,IND,518
+China,CN,CHN,452
+Australia,AU,AUS,401
+Mexico,MX,MEX,339
+Brazil,BR,BRA,337
+Cameroon,CM,CMR,317
+Democratic Republic of the Congo,CD,COD,244
+Philippines,PH,PHL,179
+Russian Federation,RU,RUS,168
+Myanmar,MM,MMR,150
+Chad,TD,TCD,146
+United Republic of Tanzania,TZ,TZA,143
+Colombia,CO,COL,136
+Malaysia,MY,MYS,131
+Peru,PE,PER,131
+Nepal,NP,NPL,129
+Vanuatu,VU,VUT,123
+Viet Nam,VN,VNM,120
+Côte d'Ivoire,CI,CIV,112
+Lao People's Democratic Republic,LA,LAO,106
+Ethiopia,ET,ETH,105
+Sudan,SD,SDN,103
+Canada,CA,CAN,102
+Ghana,GH,GHA,96
+Iran (Islamic Republic of),IR,IRN,96
+Central African Republic,CF,CAF,94
+South Sudan,SS,SSD,87
+Pakistan,PK,PAK,86
+Kenya,KE,KEN,84
+Burkina Faso,BF,BFA,83
+Thailand,TH,THA,83
+Mali,ML,MLI,79
+Solomon Islands,SB,SLB,78
+Congo,CG,COG,70
+Bolivia (Plurinational State of),BO,BOL,68
+Guatemala,GT,GTM,64
+Venezuela (Bolivarian Republic of),VE,VEN,63
+Uganda,UG,UGA,61
+Türkiye,TR,TUR,60
+Benin,BJ,BEN,57
+Italy,IT,ITA,56
+Afghanistan,AF,AFG,54
+Angola,AO,AGO,54
+Guinea,GN,GIN,53
+Togo,TG,TGO,52
+Zambia,ZM,ZMB,51
+Bangladesh,BD,BGD,50
+Gabon,GA,GAB,50
+Senegal,SN,SEN,49
+Mozambique,MZ,MOZ,45
+Argentina,AR,ARG,43
+South Africa,ZA,ZAF,43
+Liberia,LR,LBR,40
+Namibia,NA,NAM,39
+Germany,DE,DEU,38
+Botswana,BW,BWA,37
+France,FR,FRA,37
+Guinea-Bissau,GW,GNB,34
+Bhutan,BT,BTN,33
+Israel,IL,ISR,33
+Paraguay,PY,PRY,33
+Ukraine,UA,UKR,32
+Iraq,IQ,IRQ,31
+Azerbaijan,AZ,AZE,30
+Ecuador,EC,ECU,30
+United Kingdom of Great Britain and Northern Ireland,GB,GBR,29
+Greece,GR,GRC,29
+Malawi,MW,MWI,29
+Spain,ES,ESP,28
+Georgia,GE,GEO,27
+Cambodia,KH,KHM,27
+Kazakhstan,KZ,KAZ,27
+Zimbabwe,ZW,ZWE,27
+Guyana,GY,GUY,26
+Sierra Leone,SL,SLE,26
+Japan,JP,JPN,25
+Niger,NE,NER,25
+Algeria,DZ,DZA,24
+Netherlands,NL,NLD,24
+Finland,FI,FIN,22
+Poland,PL,POL,22
+Romania,RO,ROU,22
+Timor-Leste,TL,TLS,22
+Sweden,SE,SWE,21
+Suriname,SR,SUR,21
+Bulgaria,BG,BGR,20
+Gambia,GM,GMB,20
+Syrian Arab Republic,SY,SYR,20
+Switzerland,CH,CHE,19
+Mongolia,MN,MNG,19
+Yemen,YE,YEM,19
+Chile,CL,CHL,18
+Micronesia (Federated States of),FM,FSM,18
+Norway,NO,NOR,18
+Tajikistan,TJ,TJK,18
+Austria,AT,AUT,17
+Libya,LY,LBY,17
+Madagascar,MG,MDG,17
+Panama,PA,PAN,17
+Uzbekistan,UZ,UZB,17
+Costa Rica,CR,CRI,16
+Lithuania,LT,LTU,16
+Morocco,MA,MAR,16
+North Macedonia,MK,MKD,16
+Belarus,BY,BLR,15
+Egypt,EG,EGY,15
+Eritrea,ER,ERI,15
+Hungary,HU,HUN,15
+Latvia,LV,LVA,15
+Fiji,FJ,FJI,14
+Croatia,HR,HRV,14
+Oman,OM,OMN,14
+Serbia,RS,SRB,14
+Saudi Arabia,SA,SAU,14
+Albania,AL,ALB,13
+Belgium,BE,BEL,13
+Estonia,EE,EST,13
+Brunei Darussalam,BN,BRN,12
+Czechia,CZ,CZE,12
+Equatorial Guinea,GQ,GNQ,12
+Nicaragua,NI,NIC,12
+Slovenia,SI,SVN,12
+Slovakia,SK,SVK,12
+Somalia,SO,SOM,12
+Turkmenistan,TM,TKM,12
+Tunisia,TN,TUN,12
+Denmark,DK,DNK,11
+Honduras,HN,HND,11
+Jordan,JO,JOR,11
+New Zealand,NZ,NZL,11
+Portugal,PT,PRT,11
+Republic of Moldova,MD,MDA,10
+Mauritania,MR,MRT,10
+Armenia,AM,ARM,9
+Burundi,BI,BDI,9
+Kyrgyzstan,KG,KGZ,9
+Rwanda,RW,RWA,9
+Uruguay,UY,URY,9
+Singapore,SG,SGP,8
+Belize,BZ,BLZ,7
+Lebanon,LB,LBN,7
+State of Palestine,PS,PSE,7
+El Salvador,SV,SLV,7
+United Arab Emirates,AE,ARE,6
+Bosnia and Herzegovina,BA,BIH,6
+Cook Islands,CK,COK,6
+Ireland,IE,IRL,6
+Republic of Korea,KR,KOR,6
+Kuwait,KW,KWT,6
+Sri Lanka,LK,LKA,6
+Lesotho,LS,LSO,6
+Andorra,AD,AND,5
+Cyprus,CY,CYP,5
+Djibouti,DJ,DJI,5
+Comoros,KM,COM,5
+Montenegro,ME,MNE,5
+Trinidad and Tobago,TT,TTO,5
+Cuba,CU,CUB,4
+Dominican Republic,DO,DOM,4
+Haiti,HT,HTI,4
+Jamaica,JM,JAM,4
+Liechtenstein,LI,LIE,4
+Luxembourg,LU,LUX,4
+Nauru,NR,NRU,4
+Palau,PW,PLW,4
+Sao Tome and Principe,ST,STP,4
+Eswatini,SZ,SWZ,4
+Tonga,TO,TON,4
+Bahrain,BH,BHR,3
+Iceland,IS,ISL,3
+Democratic People's Republic of Korea,KP,PRK,3
+Monaco,MC,MCO,3
+Barbados,BB,BRB,2
+Dominica,DM,DMA,2
+Kiribati,KI,KIR,2
+Malta,MT,MLT,2
+Mauritius,MU,MUS,2
+Qatar,QA,QAT,2
+Seychelles,SC,SYC,2
+San Marino,SM,SMR,2
+Tuvalu,TV,TUV,2
+Samoa,WS,WSM,2
+Antigua and Barbuda,AG,ATG,1
+Bahamas (The),BS,BHS,1
+Cabo Verde,CV,CPV,1
+Grenada,GD,GRD,1
+Saint Kitts and Nevis,KN,KNA,1
+Saint Lucia,LC,LCA,1
+Marshall Islands,MH,MHL,1
+Maldives,MV,MDV,1
+Niue,NU,NIU,1
+Saint Vincent and the Grenadines,VC,VCT,1

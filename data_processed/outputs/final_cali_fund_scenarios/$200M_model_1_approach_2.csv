@@ -1,0 +1,155 @@
+"ISO_A3","country_name","country_category","is_ldc","is_sids","equalizer_multiplier","equalizer_allocation","formula_allocation","allocation"
+"AFG","Afghanistan","Least developed countries",TRUE,FALSE,1,649350.65,695232.48,1344583.13
+"AGO","Angola","Least developed countries",TRUE,FALSE,1,649350.65,740892.47,1390243.12
+"ALB","Albania","Economies in transition",FALSE,FALSE,1,649350.65,642137.68,1291488.33
+"ARE","United Arab Emirates","Other developing countries",FALSE,FALSE,1,649350.65,12038.94,661389.59
+"ARG","Argentina","Other developing countries",FALSE,FALSE,1,649350.65,570894.44,1220245.09
+"ARM","Armenia","Economies in transition",FALSE,FALSE,1,649350.65,636001.37,1285352.02
+"ATG","Antigua and Barbuda","Small island developing states",FALSE,TRUE,1,649350.65,629962.68,1279313.33
+"AZE","Azerbaijan","Economies in transition",FALSE,FALSE,1,649350.65,516421.84,1165772.49
+"BDI","Burundi","Least developed countries",TRUE,FALSE,1,649350.65,777044.19,1426394.84
+"BEN","Benin","Least developed countries",TRUE,FALSE,1,649350.65,679264.69,1328615.34
+"BFA","Burkino Faso","Least developed countries",TRUE,FALSE,1,649350.65,700261.11,1349611.75
+"BGD","Bangladesh","Least developed countries",TRUE,FALSE,1,649350.65,682977.49,1332328.14
+"BHR","Bahrain","Other developing countries",FALSE,FALSE,1,649350.65,3136.7,652487.35
+"BHS","Bahamas","Small island developing states",FALSE,TRUE,1,649350.65,517974.18,1167324.83
+"BIH","Bosnia-Herzegovina","Economies in transition",FALSE,FALSE,1,649350.65,494634.67,1143985.32
+"BLR","Belarus","Economies in transition",FALSE,FALSE,1,649350.65,500657.12,1150007.77
+"BLZ","Belize","Small island developing states",FALSE,TRUE,1,649350.65,782626.16,1431976.81
+"BOL","Bolivia","Other developing countries",FALSE,FALSE,1,649350.65,661029.57,1310380.21
+"BRA","Brazil","Other developing countries",FALSE,FALSE,1,649350.65,1216345.64,1865696.29
+"BRB","Barbados","Small island developing states",FALSE,TRUE,1,649350.65,631338.68,1280689.33
+"BRN","Brunei Darussalam","Other developing countries",FALSE,FALSE,1,649350.65,12985.88,662336.53
+"BTN","Bhutan","Other developing countries",FALSE,FALSE,1,649350.65,800926.29,1450276.94
+"BWA","Botswana","Other developing countries",FALSE,FALSE,1,649350.65,533513.09,1182863.74
+"CAF","Central African Republic","Least developed countries",TRUE,FALSE,1,649350.65,858604.67,1507955.32
+"CHL","Chile","Other developing countries",FALSE,FALSE,1,649350.65,118113.96,767464.61
+"CHN","China","Other developing countries",FALSE,FALSE,1,649350.65,809318.96,1458669.6
+"CIV","Cote d'Ivoire","Other developing countries",FALSE,FALSE,1,649350.65,616125.2,1265475.85
+"CMR","Cameroon","Other developing countries",FALSE,FALSE,1,649350.65,860437.76,1509788.41
+"COD","Dem. Rep.Congo","Least developed countries",TRUE,FALSE,1,649350.65,971879.93,1621230.58
+"COG","Congo","Other developing countries",FALSE,FALSE,1,649350.65,705869,1355219.65
+"COK","Cook Islands","Small island developing states",FALSE,TRUE,1,649350.65,778359.57,1427710.22
+"COL","Colombia","Other developing countries",FALSE,FALSE,1,649350.65,910835.12,1560185.77
+"COM","Comoros","Small island developing states",TRUE,TRUE,1,649350.65,785519.26,1434869.91
+"CPV","Cabo Verde","Small island developing states",FALSE,TRUE,1,649350.65,801943.16,1451293.81
+"CRI","Costa Rica","Other developing countries",FALSE,FALSE,1,649350.65,97096.98,746447.63
+"CUB","Cuba","Small island developing states",FALSE,TRUE,1,649350.65,471499.44,1120850.09
+"DJI","Djibouti","Least developed countries",TRUE,FALSE,1,649350.65,634449.69,1283800.34
+"DMA","Dominica","Small island developing states",FALSE,TRUE,1,649350.65,772776.96,1422127.61
+"DOM","Dominican Republic","Small island developing states",FALSE,TRUE,1,649350.65,531181.76,1180532.41
+"DZA","Algeria","Other developing countries",FALSE,FALSE,1,649350.65,529741.72,1179092.37
+"ECU","Ecuador","Other developing countries",FALSE,FALSE,1,649350.65,766077.43,1415428.08
+"EGY","Egypt","Other developing countries",FALSE,FALSE,1,649350.65,421458.91,1070809.56
+"ERI","Eritrea","Least developed countries",TRUE,FALSE,1,649350.65,791298.67,1440649.32
+"ETH","Ethiopia","Least developed countries",TRUE,FALSE,1,649350.65,788660.1,1438010.75
+"FJI","Fiji","Small island developing states",FALSE,TRUE,1,649350.65,673117.3,1322467.95
+"FSM","Micronesia (Fed. States of)","Small island developing states",FALSE,TRUE,1,649350.65,807578.9,1456929.55
+"GAB","Gabon","Other developing countries",FALSE,FALSE,1,649350.65,556234.99,1205585.64
+"GEO","Georgia","Economies in transition",FALSE,FALSE,1,649350.65,654563.77,1303914.41
+"GHA","Ghana","Other developing countries",FALSE,FALSE,1,649350.65,592499.64,1241850.29
+"GIN","Guinea","Least developed countries",TRUE,FALSE,1,649350.65,692607.54,1341958.19
+"GMB","Gambia","Least developed countries",TRUE,FALSE,1,649350.65,784539.73,1433890.38
+"GNB","Guinea Bissau","Small island developing states",TRUE,TRUE,1,649350.65,799626.69,1448977.34
+"GNQ","Equatorial Guinea","Other developing countries",FALSE,FALSE,1,649350.65,647359.85,1296710.49
+"GRD","Grenada","Small island developing states",FALSE,TRUE,1,649350.65,770602.15,1419952.8
+"GTM","Guatemala","Other developing countries",FALSE,FALSE,1,649350.65,615768.77,1265119.42
+"GUY","Guyana","Small island developing states",FALSE,TRUE,1,649350.65,532423.24,1181773.89
+"HND","Honduras","Other developing countries",FALSE,FALSE,1,649350.65,708903.03,1358253.68
+"HTI","Haiti","Small island developing states",TRUE,TRUE,1,649350.65,678013.93,1327364.58
+"IDN","Indonesia","Other developing countries",FALSE,FALSE,1,649350.65,1788814.24,2438164.89
+"IND","India","Other developing countries",FALSE,FALSE,1,649350.65,1013462.26,1662812.91
+"IRN","Iran (Islamic Republic of)","Other developing countries",FALSE,FALSE,1,649350.65,509022.48,1158373.13
+"IRQ","Iraq","Other developing countries",FALSE,FALSE,1,649350.65,419861.32,1069211.97
+"JAM","Jamaica","Small island developing states",FALSE,TRUE,1,649350.65,661093.52,1310444.17
+"JOR","Jordan","Other developing countries",FALSE,FALSE,1,649350.65,498997.04,1148347.69
+"KAZ","Kazakhstan","Economies in transition",FALSE,FALSE,1,649350.65,441092.41,1090443.06
+"KEN","Kenya","Other developing countries",FALSE,FALSE,1,649350.65,632695.67,1282046.32
+"KGZ","Kyrgyzstan","Economies in transition",FALSE,FALSE,1,649350.65,640763.5,1290114.15
+"KHM","Cambodia","Least developed countries",TRUE,FALSE,1,649350.65,672967.16,1322317.81
+"KIR","Kiribati","Small island developing states",TRUE,TRUE,1,649350.65,781758.99,1431109.64
+"KNA","Saint Kitts and Nevis","Small island developing states",FALSE,TRUE,1,649350.65,766066.74,1415417.39
+"KWT","Kuwait","Other developing countries",FALSE,FALSE,1,649350.65,6376.16,655726.81
+"LAO","Lao People's Dem. Rep.","Least developed countries",TRUE,FALSE,1,649350.65,751840.26,1401190.91
+"LBN","Lebanon","Other developing countries",FALSE,FALSE,1,649350.65,495003.01,1144353.66
+"LBR","Liberia","Least developed countries",TRUE,FALSE,1,649350.65,816458.68,1465809.33
+"LBY","Libya","Other developing countries",FALSE,FALSE,1,649350.65,515116.35,1164467
+"LCA","Saint Lucia","Small island developing states",FALSE,TRUE,1,649350.65,634020.62,1283371.27
+"LKA","Sri Lanka","Other developing countries",FALSE,FALSE,1,649350.65,577759.7,1227110.35
+"LSO","Lesotho","Least developed countries",TRUE,FALSE,1,649350.65,771663.22,1421013.87
+"MAR","Morocco","Other developing countries",FALSE,FALSE,1,649350.65,523190.47,1172541.12
+"MDA","Republic of Moldova","Economies in transition",FALSE,FALSE,1,649350.65,632916.24,1282266.89
+"MDG","Madagascar","Least developed countries",TRUE,FALSE,1,649350.65,975058.04,1624408.69
+"MDV","Maldives","Small island developing states",FALSE,TRUE,1,649350.65,636505.72,1285856.36
+"MEX","Mexico","Other developing countries",FALSE,FALSE,1,649350.65,1050686.26,1700036.91
+"MHL","Marshall Islands","Small island developing states",FALSE,TRUE,1,649350.65,780434.8,1429785.45
+"MKD","North Macedonia","Economies in transition",FALSE,FALSE,1,649350.65,641161.7,1290512.35
+"MLI","Mali","Least developed countries",TRUE,FALSE,1,649350.65,704848.06,1354198.71
+"MMR","Myanmar","Least developed countries",TRUE,FALSE,1,649350.65,845224.8,1494575.45
+"MNE","Montenegro","Economies in transition",FALSE,FALSE,1,649350.65,632574.42,1281925.07
+"MNG","Mongolia","Other developing countries",FALSE,FALSE,1,649350.65,668624.35,1317975
+"MOZ","Mozambique","Least developed countries",TRUE,FALSE,1,649350.65,728052.68,1377403.33
+"MRT","Mauritania","Least developed countries",TRUE,FALSE,1,649350.65,644118,1293468.65
+"MUS","Mauritius","Small island developing states",FALSE,TRUE,1,649350.65,648210.38,1297561.03
+"MWI","Malawi","Least developed countries",TRUE,FALSE,1,649350.65,667405.99,1316756.64
+"MYS","Malaysia","Other developing countries",FALSE,FALSE,1,649350.65,620517.66,1269868.31
+"NAM","Namibia","Other developing countries",FALSE,FALSE,1,649350.65,702468.77,1351819.42
+"NER","Niger","Least developed countries",TRUE,FALSE,1,649350.65,654148.63,1303499.28
+"NGA","Nigeria","Other developing countries",FALSE,FALSE,1,649350.65,935423.66,1584774.31
+"NIC","Nicaragua","Other developing countries",FALSE,FALSE,1,649350.65,671973.32,1321323.97
+"NIU","Niue","Small island developing states",FALSE,TRUE,1,649350.65,766575.37,1415926.02
+"NPL","Nepal","Least developed countries",TRUE,FALSE,1,649350.65,761412.4,1410763.05
+"NRU","Nauru","Small island developing states",FALSE,TRUE,1,649350.65,769131.81,1418482.46
+"OMN","Oman","Other developing countries",FALSE,FALSE,1,649350.65,40990.47,690341.12
+"PAK","Pakistan","Other developing countries",FALSE,FALSE,1,649350.65,489287.08,1138637.73
+"PAN","Panama","Other developing countries",FALSE,FALSE,1,649350.65,109151.44,758502.08
+"PER","Peru","Other developing countries",FALSE,FALSE,1,649350.65,813060.24,1462410.89
+"PHL","Philippines","Other developing countries",FALSE,FALSE,1,649350.65,791554.4,1440905.05
+"PLW","Palau","Small island developing states",FALSE,TRUE,1,649350.65,780928.79,1430279.44
+"PNG","Papua New Guinea","Small island developing states",FALSE,TRUE,1,649350.65,1654152.23,2303502.88
+"PRK","Dem. People's Rep.Korea","Other developing countries",FALSE,FALSE,1,649350.65,634248.29,1283598.94
+"PRY","Paraguay","Other developing countries",FALSE,FALSE,1,649350.65,533041.89,1182392.54
+"PSE","State of Palestine","Other developing countries",FALSE,FALSE,1,649350.65,773195.93,1422546.58
+"QAT","Qatar","Other developing countries",FALSE,FALSE,1,649350.65,2870.63,652221.28
+"RUS","Russian Federation","Economies in transition",FALSE,FALSE,1,649350.65,306094.94,955445.59
+"RWA","Rwanda","Least developed countries",TRUE,FALSE,1,649350.65,640926.23,1290276.88
+"SAU","Saudi Arabia","Other developing countries",FALSE,FALSE,1,649350.65,60602.18,709952.83
+"SDN","Sudan","Least developed countries",TRUE,FALSE,1,649350.65,736604.38,1385955.03
+"SEN","Senegal","Least developed countries",TRUE,FALSE,1,649350.65,691325.51,1340676.16
+"SGP","Singapore","Small island developing states",FALSE,TRUE,1,649350.65,389559.82,1038910.47
+"SLB","Solomon Islands","Small island developing states",TRUE,TRUE,1,649350.65,886936.11,1536286.76
+"SLE","Sierra Leone","Least developed countries",TRUE,FALSE,1,649350.65,799040.61,1448391.26
+"SLV","El Salvador","Other developing countries",FALSE,FALSE,1,649350.65,501800.52,1151151.17
+"SOM","Somalia","Least developed countries",TRUE,FALSE,1,649350.65,686107.82,1335458.47
+"SRB","Serbia","Economies in transition",FALSE,FALSE,1,649350.65,502139.64,1151490.28
+"SSD","South Sudan","Least developed countries",TRUE,FALSE,1,649350.65,716275.47,1365626.12
+"STP","Sao Tome y Principe","Small island developing states",FALSE,TRUE,1,649350.65,786135.55,1435486.2
+"SUR","Suriname","Small island developing states",FALSE,TRUE,1,649350.65,658911.1,1308261.75
+"SWZ","Eswatini","Other developing countries",FALSE,FALSE,1,649350.65,630802.2,1280152.85
+"SYC","Seychelles","Small island developing states",FALSE,TRUE,1,649350.65,653769.73,1303120.38
+"SYR","Syrian Arab Republic","Other developing countries",FALSE,FALSE,1,649350.65,648529.7,1297880.35
+"TCD","Chad","Least developed countries",TRUE,FALSE,1,649350.65,763462.17,1412812.82
+"TGO","Togo","Least developed countries",TRUE,FALSE,1,649350.65,674608.84,1323959.49
+"THA","Thailand","Other developing countries",FALSE,FALSE,1,649350.65,521236.2,1170586.85
+"TJK","Tajikistan","Economies in transition",FALSE,FALSE,1,649350.65,646268.33,1295618.98
+"TKM","Turkmenistan","Economies in transition",FALSE,FALSE,1,649350.65,506921.8,1156272.45
+"TLS","Timor Leste","Small island developing states",TRUE,TRUE,1,649350.65,791784.29,1441134.94
+"TON","Tonga","Small island developing states",FALSE,TRUE,1,649350.65,784611.27,1433961.92
+"TTO","Trinidad and Tobago","Small island developing states",FALSE,TRUE,1,649350.65,506027.77,1155378.42
+"TUN","Tunisia","Other developing countries",FALSE,FALSE,1,649350.65,507648.6,1156999.25
+"TUR","Turkiye","Other developing countries",FALSE,FALSE,1,649350.65,477650.43,1127001.08
+"TUV","Tuvalu","Small island developing states",TRUE,TRUE,1,649350.65,769310.39,1418661.04
+"TZA","United Rep. Tanzania","Least developed countries",TRUE,FALSE,1,649350.65,903566.67,1552917.32
+"UGA","Uganda","Least developed countries",TRUE,FALSE,1,649350.65,701487.73,1350838.38
+"UKR","Ukraine","Economies in transition",FALSE,FALSE,1,649350.65,526608.07,1175958.72
+"URY","Uruguay","Other developing countries",FALSE,FALSE,1,649350.65,24318.5,673669.15
+"UZB","Uzbekistan","Economies in transition",FALSE,FALSE,1,649350.65,509211.13,1158561.78
+"VCT","Saint Vincent & Grenadines","Small island developing states",FALSE,TRUE,1,649350.65,771346.58,1420697.23
+"VEN","Venezuela","Other developing countries",FALSE,FALSE,1,649350.65,758101.88,1407452.53
+"VNM","Viet Nam","Other developing countries",FALSE,FALSE,1,649350.65,585561.77,1234912.42
+"VUT","Vanuatu","Small island developing states",FALSE,TRUE,1,649350.65,887683.91,1537034.56
+"WSM","Samoa","Small island developing states",FALSE,TRUE,1,649350.65,773882.1,1423232.75
+"YEM","Yemen","Least developed countries",TRUE,FALSE,1,649350.65,680899.68,1330250.33
+"ZAF","South Africa","Other developing countries",FALSE,FALSE,1,649350.65,607709.12,1257059.77
+"ZMB","Zambia","Least developed countries",TRUE,FALSE,1,649350.65,702904.33,1352254.98
+"ZWE","Zimbabwe","Other developing countries",FALSE,FALSE,1,649350.65,670263.54,1319614.19
